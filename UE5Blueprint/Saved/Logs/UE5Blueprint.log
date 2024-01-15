@@ -1818,3 +1818,212 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.15-14.37.26:373][837]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 731 ms)
 [2024.01.15-14.37.26:375][837]AssetCheck: New page: Asset Save: Level1
 [2024.01.15-14.37.26:375][837]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/Level1.Level1
+[2024.01.15-14.39.00:456][270]LogSlate: Window 'New Level' being destroyed
+[2024.01.15-14.39.00:461][270]LightingResults: New page: Lighting Build
+[2024.01.15-14.39.00:525][270]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-14.39.00:525][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-14.39.00:526][270]MapCheck: New page: Map Check
+[2024.01.15-14.39.00:526][270]LightingResults: New page: Lighting Build
+[2024.01.15-14.39.00:540][270]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-14.39.00:545][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.01.15-14.39.00:549][270]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-14.39.00:549][270]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-14.39.00:549][270]LogAIModule: Creating AISystem for world Untitled
+[2024.01.15-14.39.00:550][270]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.01.15-14.39.00:582][270]LoadErrors: New page: New Map
+[2024.01.15-14.39.07:554][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.01.15-14.39.07:619][ 90]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-14.39.07:628][ 90]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Game/Maps/Level1.Level1
+[2024.01.15-14.39.07:628][ 90]Cmd: MAP LOAD FILE="../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.15-14.39.07:628][ 90]LightingResults: New page: Lighting Build
+[2024.01.15-14.39.07:628][ 90]LoadErrors: New page: Loading map: Level1.umap
+[2024.01.15-14.39.07:665][ 90]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-14.39.07:665][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-14.39.07:665][ 90]MapCheck: New page: Map Check
+[2024.01.15-14.39.07:665][ 90]LightingResults: New page: Lighting Build
+[2024.01.15-14.39.07:682][ 90]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-14.39.07:684][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.01.15-14.39.07:687][ 90]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-14.39.07:687][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-14.39.07:705][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.01.15-14.39.07:721][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.01.15-14.39.07:744][ 90]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2024.01.15-14.39.07:744][ 90]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-14.39.07:744][ 90]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-14.39.07:745][ 90]LogAIModule: Creating AISystem for world Level1
+[2024.01.15-14.39.08:008][ 90]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.15-14.39.08:026][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.01.15-14.39.08:030][ 90]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.15-14.39.08:030][ 90]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,148ms to complete.
+[2024.01.15-14.39.08:756][137]LogShaderCompilers: Display: ================================================
+[2024.01.15-14.39.08:756][137]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.15-14.39.08:756][137]LogShaderCompilers: Display: Total job queries 646, among them cache hits 86 (13.31%)
+[2024.01.15-14.39.08:756][137]LogShaderCompilers: Display: Tracking 468 distinct input hashes that result in 285 distinct outputs (60.90%)
+[2024.01.15-14.39.08:756][137]LogShaderCompilers: Display: RAM used: 11,20 MiB of 1,60 GiB budget. Usage: 0.68%
+[2024.01.15-14.39.08:756][137]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.15-14.39.08:756][137]LogShaderCompilers: Display: Shaders Compiled: 377
+[2024.01.15-14.39.08:756][137]LogShaderCompilers: Display: Jobs assigned 377, completed 377 (100%)
+[2024.01.15-14.39.08:756][137]LogShaderCompilers: Display: Average time worker was idle: 13.32 s
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Time job spent in pending queue: average 3.68 s, longest 10.36 s
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Job execution time: average 0.37 s, max 0.89 s
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Job life time (pending + execution): average 4.06 s, max 10.87
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Shader code size: average 40,748 KiB, min 3,699 KiB, max 72,277 KiB
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 19.65 s
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Jobs were issued in 370 batches (only local compilation was used), average 1.02 jobs/batch
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Average processing rate: 19.18 jobs/sec
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Total thread time: 107,372 s
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Total thread preprocess time: 11,186 s
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Percentage time preprocessing: 10.42%
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Effective parallelization: 5.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    5 times, average 0.38 sec, max 0.42 sec, min 0.35 sec)
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled   20 times, average 0.35 sec, max 0.48 sec, min 0.26 sec)
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    5 times, average 0.35 sec, max 0.37 sec, min 0.33 sec)
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    5 times, average 0.33 sec, max 0.37 sec, min 0.30 sec)
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.33 sec, max 0.40 sec, min 0.29 sec)
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 6.57% of total time (compiled   20 times, average 0.35 sec, max 0.48 sec, min 0.26 sec)
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 5.50% of total time (compiled   20 times, average 0.30 sec, max 0.40 sec, min 0.22 sec)
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.72% of total time (compiled   19 times, average 0.27 sec, max 0.36 sec, min 0.20 sec)
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 4.64% of total time (compiled   19 times, average 0.26 sec, max 0.38 sec, min 0.18 sec)
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight - 4.27% of total time (compiled   14 times, average 0.33 sec, max 0.44 sec, min 0.26 sec)
+[2024.01.15-14.39.08:757][137]LogShaderCompilers: Display: ================================================
+[2024.01.15-14.39.11:553][380]LogViewport: Scene viewport resized to 702x395, mode Windowed.
+[2024.01.15-14.39.14:612][601]LogViewport: Scene viewport resized to 702x395, mode Windowed.
+[2024.01.15-14.39.18:888][848]Cmd: EDIT COPY
+[2024.01.15-14.39.23:980][142]LogContentBrowser: Deferred new asset file creation: Level2
+[2024.01.15-14.39.23:986][142]LogContentBrowser: Creating deferred item: Level2
+[2024.01.15-14.39.24:007][143]LogContentBrowser: Renaming the item being created (Deferred Item: Level2).
+[2024.01.15-14.39.32:634][657]LogContentBrowser: Attempting asset rename: Level2 -> LevelYOYO
+[2024.01.15-14.39.32:652][657]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-14.39.32:664][657]LogContentBrowser: End creating deferred item Level2
+[2024.01.15-14.39.34:178][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.15-14.39.35:525][743]LogSlate: Window 'Save Content' being destroyed
+[2024.01.15-14.39.35:531][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-14.39.35:562][743]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-14.39.35:584][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.01.15-14.39.35:639][743]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelYOYO
+[2024.01.15-14.39.35:639][743]LogSavePackage: Moving '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Saved/LevelYOYOE94F19054D5F500DC0F9CFAB1F541978.tmp' to '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/LevelYOYO.umap'
+[2024.01.15-14.39.35:654][743]LogFileHelpers: Saving map 'LevelYOYO' took 0.092
+[2024.01.15-14.39.35:659][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 858 ms)
+[2024.01.15-14.39.35:659][743]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Game/Maps/LevelYOYO.LevelYOYO
+[2024.01.15-14.39.35:660][743]Cmd: MAP LOAD FILE="../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/LevelYOYO.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.15-14.39.35:660][743]LightingResults: New page: Lighting Build
+[2024.01.15-14.39.35:660][743]LoadErrors: New page: Loading map: LevelYOYO.umap
+[2024.01.15-14.39.35:678][743]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-14.39.35:678][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-14.39.35:678][743]MapCheck: New page: Map Check
+[2024.01.15-14.39.35:678][743]LightingResults: New page: Lighting Build
+[2024.01.15-14.39.35:691][743]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-14.39.35:696][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.15-14.39.35:699][743]LogWorld: UWorld::CleanupWorld for LevelYOYO, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-14.39.35:699][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-14.39.35:716][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.01.15-14.39.35:729][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.15-14.39.35:746][743]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelYOYO'.
+[2024.01.15-14.39.35:746][743]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-14.39.35:746][743]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-14.39.35:747][743]LogAIModule: Creating AISystem for world LevelYOYO
+[2024.01.15-14.39.35:786][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.15-14.39.35:804][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.01.15-14.39.35:809][743]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.15-14.39.35:809][743]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,142ms to complete.
+[2024.01.15-14.39.35:812][743]AssetCheck: New page: Asset Save: LevelYOYO
+[2024.01.15-14.39.35:812][743]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelYOYO.LevelYOYO
+[2024.01.15-14.40.32:893][969]LogEditorViewport: Clicking Background
+[2024.01.15-14.40.38:526][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.01.15-14.40.39:775][463]LogSlate: Window 'Save Content' being destroyed
+[2024.01.15-14.40.39:782][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-14.40.39:840][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.01.15-14.40.39:898][463]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelYOYO
+[2024.01.15-14.40.39:899][463]LogSavePackage: Moving '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Saved/LevelYOYOBDC5B9CC4E4B3876145100AD47321164.tmp' to '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/LevelYOYO.umap'
+[2024.01.15-14.40.39:907][463]LogFileHelpers: Saving map 'LevelYOYO' took 0.096
+[2024.01.15-14.40.39:913][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 990 ms)
+[2024.01.15-14.40.39:913][463]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Game/Maps/LevelYOYO.LevelYOYO
+[2024.01.15-14.40.39:914][463]Cmd: MAP LOAD FILE="../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/LevelYOYO.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.15-14.40.39:914][463]LightingResults: New page: Lighting Build
+[2024.01.15-14.40.39:914][463]LoadErrors: New page: Loading map: LevelYOYO.umap
+[2024.01.15-14.40.39:955][463]LogWorld: UWorld::CleanupWorld for LevelYOYO, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-14.40.39:955][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-14.40.39:955][463]MapCheck: New page: Map Check
+[2024.01.15-14.40.39:955][463]LightingResults: New page: Lighting Build
+[2024.01.15-14.40.39:968][463]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-14.40.39:974][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.15-14.40.39:990][463]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelYOYO'.
+[2024.01.15-14.40.39:990][463]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-14.40.39:990][463]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-14.40.39:990][463]LogAIModule: Creating AISystem for world LevelYOYO
+[2024.01.15-14.40.40:030][463]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.15-14.40.40:047][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.15-14.40.40:051][463]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.15-14.40.40:051][463]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,141ms to complete.
+[2024.01.15-14.40.40:056][463]AssetCheck: New page: Asset Save: LevelYOYO
+[2024.01.15-14.40.40:056][463]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelYOYO.LevelYOYO
+[2024.01.15-14.41.02:018][309]LogContentBrowser: Deferred new asset file creation: LevelYOYO1
+[2024.01.15-14.41.02:027][309]LogContentBrowser: Creating deferred item: LevelYOYO1
+[2024.01.15-14.41.02:041][310]LogContentBrowser: Renaming the item being created (Deferred Item: LevelYOYO1).
+[2024.01.15-14.41.04:099][495]LogContentBrowser: Attempting asset rename: LevelYOYO1 -> LevelYOYO1
+[2024.01.15-14.41.04:115][495]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-14.41.04:128][495]LogContentBrowser: End creating deferred item LevelYOYO1
+[2024.01.15-14.41.05:754][640]LogContentBrowser: Deferred new asset file creation: LevelYOYO2
+[2024.01.15-14.41.05:763][640]LogContentBrowser: Creating deferred item: LevelYOYO2
+[2024.01.15-14.41.05:777][641]LogContentBrowser: Renaming the item being created (Deferred Item: LevelYOYO2).
+[2024.01.15-14.41.06:742][729]LogContentBrowser: Attempting asset rename: LevelYOYO2 -> LevelYOYO2
+[2024.01.15-14.41.06:759][729]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-14.41.06:771][729]LogContentBrowser: End creating deferred item LevelYOYO2
+[2024.01.15-14.41.15:139][470]LogContentBrowser: Attempting asset rename: LevelYOYO1 -> LevelSTYG
+[2024.01.15-14.41.15:175][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-14.41.15:201][470]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-14.41.15:224][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.15-14.41.15:278][470]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelSTYG
+[2024.01.15-14.41.15:278][470]LogSavePackage: Moving '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Saved/LevelSTYG3A022B3945706AAF8E86F7987B00E8CD.tmp' to '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/LevelSTYG.umap'
+[2024.01.15-14.41.15:293][470]LogFileHelpers: Saving map 'LevelSTYG' took 0.093
+[2024.01.15-14.41.15:303][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 1.11 sec)
+[2024.01.15-14.41.15:322][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.15-14.41.15:337][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.15-14.41.15:348][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.01.15-14.41.15:350][470]AssetCheck: New page: Asset Save: LevelSTYG
+[2024.01.15-14.41.15:350][470]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelSTYG.LevelSTYG
+[2024.01.15-14.41.24:544][277]LogContentBrowser: Attempting asset rename: LevelYOYO2 -> LevelSasha
+[2024.01.15-14.41.24:571][277]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-14.41.24:604][277]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-14.41.24:627][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.15-14.41.24:679][277]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelSasha
+[2024.01.15-14.41.24:679][277]LogSavePackage: Moving '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Saved/LevelSashaEAD83A2D4EFCF23E00BBAB9C351B35AC.tmp' to '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/LevelSasha.umap'
+[2024.01.15-14.41.24:692][277]LogFileHelpers: Saving map 'LevelSasha' took 0.089
+[2024.01.15-14.41.24:699][277]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 1.24 sec)
+[2024.01.15-14.41.24:719][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.15-14.41.24:730][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.15-14.41.24:742][277]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.01.15-14.41.24:743][277]AssetCheck: New page: Asset Save: LevelSasha
+[2024.01.15-14.41.24:743][277]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelSasha.LevelSasha
+[2024.01.15-14.41.26:935][462]LogContentBrowser: Deferred new asset file creation: LevelYOYO1
+[2024.01.15-14.41.26:945][462]LogContentBrowser: Creating deferred item: LevelYOYO1
+[2024.01.15-14.41.26:960][463]LogContentBrowser: Renaming the item being created (Deferred Item: LevelYOYO1).
+[2024.01.15-14.41.33:016][  8]LogContentBrowser: Attempting asset rename: LevelYOYO1 -> LevelJUJU
+[2024.01.15-14.41.33:032][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-14.41.33:042][  8]LogContentBrowser: End creating deferred item LevelYOYO1
+[2024.01.15-14.41.34:531][134]LogContentBrowser: Deferred new asset file creation: LevelYOYO1
+[2024.01.15-14.41.34:540][134]LogContentBrowser: Creating deferred item: LevelYOYO1
+[2024.01.15-14.41.34:553][135]LogContentBrowser: Renaming the item being created (Deferred Item: LevelYOYO1).
+[2024.01.15-14.41.43:791][965]LogContentBrowser: Attempting asset rename: LevelYOYO1 -> LevelMrMat
+[2024.01.15-14.41.43:806][965]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-14.41.43:817][965]LogContentBrowser: End creating deferred item LevelYOYO1
+[2024.01.15-14.41.47:587][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-14.41.47:623][291]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-14.41.47:647][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.15-14.41.47:699][291]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.15-14.41.47:699][291]LogSavePackage: Moving '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Saved/LevelMrMatFA3A5E6A46B71AA40B8AAC9BC8324AB9.tmp' to '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.15-14.41.47:712][291]LogFileHelpers: Saving map 'LevelMrMat' took 0.089
+[2024.01.15-14.41.47:719][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 1.37 sec)
+[2024.01.15-14.41.47:720][291]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.15-14.41.47:720][291]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.15-14.41.48:438][353]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-14.41.48:478][353]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-14.41.48:502][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.15-14.41.48:555][353]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelJUJU
+[2024.01.15-14.41.48:555][353]LogSavePackage: Moving '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Saved/LevelJUJUA5544AAE433124465332A0A97E83008A.tmp' to '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/LevelJUJU.umap'
+[2024.01.15-14.41.48:568][353]LogFileHelpers: Saving map 'LevelJUJU' took 0.091
+[2024.01.15-14.41.48:576][353]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 1.51 sec)
+[2024.01.15-14.41.48:577][353]AssetCheck: New page: Asset Save: LevelJUJU
+[2024.01.15-14.41.48:577][353]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelJUJU.LevelJUJU
