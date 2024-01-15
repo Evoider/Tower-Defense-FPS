@@ -1800,3 +1800,21 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.15-14.35.00:090][272]Can't find target element.
 [2024.01.15-14.35.12:394][400]Cmd: TRANSACTION UNDO
 [2024.01.15-14.35.12:394][400]LogEditorTransaction: Undo Delete Elements
+[2024.01.15-14.35.53:958][330]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-14.35.54:027][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.01.15-14.35.54:083][330]LogSavePackage: Moving output files for package: /Game/Game/Maps/Level1
+[2024.01.15-14.35.54:084][330]LogSavePackage: Moving '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Saved/Level1ACC1A2224C865D81C4E1ABBB05C10218.tmp' to '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/Level1.umap'
+[2024.01.15-14.35.54:092][330]LogFileHelpers: All files are already saved.
+[2024.01.15-14.35.54:092][330]LogFileHelpers: Saving map 'Level1' took 0.092
+[2024.01.15-14.35.54:097][330]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 590 ms)
+[2024.01.15-14.35.54:097][330]AssetCheck: New page: Asset Save: Level1
+[2024.01.15-14.35.54:097][330]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/Level1.Level1
+[2024.01.15-14.37.26:232][837]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-14.37.26:304][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.01.15-14.37.26:359][837]LogSavePackage: Moving output files for package: /Game/Game/Maps/Level1
+[2024.01.15-14.37.26:359][837]LogSavePackage: Moving '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Saved/Level12E4012A9480794F7A883748AC2F5E8F9.tmp' to '../../../../../../Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/Level1.umap'
+[2024.01.15-14.37.26:367][837]LogFileHelpers: All files are already saved.
+[2024.01.15-14.37.26:367][837]LogFileHelpers: Saving map 'Level1' took 0.089
+[2024.01.15-14.37.26:373][837]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 731 ms)
+[2024.01.15-14.37.26:375][837]AssetCheck: New page: Asset Save: Level1
+[2024.01.15-14.37.26:375][837]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/Level1.Level1
