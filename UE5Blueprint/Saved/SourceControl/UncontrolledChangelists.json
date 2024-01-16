@@ -32,13 +32,16 @@
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Exo/BP_FallingPlatform.uasset",
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Stylized_VFX_StPack/Materials/M_Portal_Fire.uasset",
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Stylized_VFX_StPack/Particles/UPDATE_1_4/P_Portal_02.uasset",
-				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/BP_Enemy.uasset",
-				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/BP_Lich.uasset",
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/UndeadPack/Lich/Blueprint/BP_Lich.uasset",
-				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Lich/BP_Lich.uasset",
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Enemy/BP_Enemy.uasset",
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Enemy/Lich/BP_Lich.uasset",
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/GameMode/GM_Game.uasset",
+				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/GameMode/WB_WaveModeHUD.uasset",
+				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Spawner/STR_Wave.uasset",
+				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Spawner/DT_WavePool.uasset",
+				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/BP_Enemy.uasset",
+				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/BP_Lich.uasset",
+				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Lich/BP_Lich.uasset",
 				"C:/Users/matth/OneDrive/Documents/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/FirstPerson/Input/IMC_Default.uasset"
 			]
 		}
