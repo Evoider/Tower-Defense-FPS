@@ -5,7 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/X1/ROY1KCOJE4PPCFSEIRV0CH.uasset",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/FirstPerson/Maps/FirstPersonMap.umap",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Blueprints/Tower/BP_Tower.uasset",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Blueprints/Tower/BP_TowerExplosionHit.uasset",
@@ -78,6 +77,13 @@
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalObjects__/FirstPerson/Maps/Matthieu_TestMap/1/XY/YZM4CL3RRE1FB4J1H0AHM4.uasset",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalObjects__/FirstPerson/Maps/Matthieu_TestMap/6/C6/RXHVU85IG1B4HMBTGY2WSJ.uasset",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/FirstPerson/Maps/Matthieu_TestMap.umap",
+				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Blueprints/Tower/BP_TowerProjectile.uasset",
+				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/GJ/AUPF658QD4310QD9J0679R.uasset",
+				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Blueprints/Tower/BP_ProjectileTet.uasset",
+				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Blueprints/Tower/BP_ProjectileTest.uasset",
+				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/Matthieu_TestMap/A/AW/DF4H7M5YBPR2V9T4FXF34H.uasset",
+				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/Matthieu_TestMap/A/T1/42118USZ67V5VFMGV034IT.uasset",
+				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/X1/ROY1KCOJE4PPCFSEIRV0CH.uasset",
 				"C:/Users/matth/OneDrive/Documents/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/FirstPerson/Input/IMC_Default.uasset",
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
 			]
