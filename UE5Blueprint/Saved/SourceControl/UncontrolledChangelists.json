@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/jujud/GitHub/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/Level1Juju.umap",
+				"C:/Users/jujud/GitHub/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Enemy/Ghoul/BP_Ghoul.uasset",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Blueprints/Tower/BP_Tower.uasset",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/Matthieu_TestMap/7/UO/04PTDPMKSF3F40FHKBPUQO.uasset",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/FirstPerson/Maps/Matthieu_TestMap.umap",
