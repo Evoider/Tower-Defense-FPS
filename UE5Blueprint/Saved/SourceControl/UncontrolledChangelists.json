@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Matt/OneDrive/Documents/GitHub/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/GameManager.uasset",
+				"C:/Users/Matt/OneDrive/Documents/GitHub/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/PlayManager.uasset",
+				"C:/Users/Matt/OneDrive/Documents/GitHub/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap",
+				"C:/Users/Matt/OneDrive/Documents/GitHub/GTech3-UE5-Blueprint/UE5Blueprint/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/Matt/OneDrive/Documents/GitHub/GTech3-UE5-Blueprint/UE5Blueprint/Content/UI/NewWidgetBlueprint.uasset",
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/Level1_BuiltData.uasset",
 				"C:/Users/shaft/OneDrive/Bureau/Project/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Maps/Level1.umap",
