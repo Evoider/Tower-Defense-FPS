@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/jujud/GitHub/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Enemy/Ghoul/BP_Ghoul.uasset",
+				"C:/Users/jujud/GitHub/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Enemy/Ghoul/ABP_Ghoul.uasset",
+				"C:/Users/jujud/GitHub/GTech3-Rendu-UE5/UE5Blueprint/Content/Game/Enemy/Skeleton/BP_Skeleton.uasset",
+				"C:/Users/jujud/GitHub/GTech3-Rendu-UE5/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/MapTestYoyo/4/QJ/Y0U21LZJ8XLFGVUT93NGN4.uasset",
+				"C:/Users/jujud/GitHub/GTech3-Rendu-UE5/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/MapTestYoyo/1/6J/C5FBCYCPRGZNQ117YZEVJN.uasset",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/FirstPerson/Maps/Matthieu_TestMap.umap",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Tower/BP_TowerExplosionHit.uasset",
 				"D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Tower/BP_TowerProjectile.uasset",
