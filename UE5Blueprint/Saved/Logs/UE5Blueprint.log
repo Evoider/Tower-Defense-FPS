@@ -2174,3 +2174,1578 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.18-12.57.19:047][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 1.58 sec)
 [2024.01.18-12.57.19:049][381]AssetCheck: New page: Asset Save: LevelMrMat
 [2024.01.18-12.57.19:049][381]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: ================================================
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Total job queries 391, among them cache hits 168 (42.97%)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Tracking 221 distinct input hashes that result in 158 distinct outputs (71.49%)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: RAM used: 5,68 MiB of 1,60 GiB budget. Usage: 0.35%
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Shaders Compiled: 77
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Jobs assigned 77, completed 77 (100%)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Average time worker was idle: 14.59 s
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Time job spent in pending queue: average 0.27 s, longest 0.90 s
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 1.12 s
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Job life time (pending + execution): average 0.78 s, max 1.39
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Shader code size: average 42,98 KiB, min 4,898 KiB, max 82,957 KiB
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.07 s
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Jobs were issued in 77 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Average processing rate: 10.89 jobs/sec
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Total thread time: 29,654 s
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Total thread preprocess time: 2,602 s
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Percentage time preprocessing: 8.77%
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Effective parallelization: 4.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.47 sec, max 0.48 sec, min 0.47 sec)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display:                                                  FVelocityVS (compiled   10 times, average 0.46 sec, max 0.62 sec, min 0.28 sec)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   14 times, average 0.44 sec, max 0.73 sec, min 0.29 sec)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.95% of total time (compiled   14 times, average 0.44 sec, max 0.73 sec, min 0.29 sec)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display:                                                  FVelocityVS - 15.35% of total time (compiled   10 times, average 0.46 sec, max 0.62 sec, min 0.28 sec)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display:                                                  FHitProxyVS - 14.11% of total time (compiled   10 times, average 0.42 sec, max 0.55 sec, min 0.28 sec)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.78% of total time (compiled   13 times, average 0.31 sec, max 0.54 sec, min 0.23 sec)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.69% of total time (compiled    5 times, average 0.40 sec, max 0.47 sec, min 0.32 sec)
+[2024.01.18-12.58.08:796][690]LogShaderCompilers: Display: ================================================
+[2024.01.18-12.58.14:993][223]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-12.58.14:999][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-12.58.14:999][223]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 14:58:14)
+[2024.01.18-12.58.14:999][223]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-12.58.15:014][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014978s)
+[2024.01.18-12.58.15:014][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015005s)
+[2024.01.18-12.58.15:028][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.01.18-12.58.15:030][223]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-12.58.15:030][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-12.58.15:030][223]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-12.58.15:030][223]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2024.01.18-12.58.15:030][223]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.01.18-12.58.15:030][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-12.58.15:030][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-12.58.15:030][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-12.58.15:030][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-12.58.15:030][223]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-12.58.15:030][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-12.58.15:030][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-12.58.15:030][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-12.58.15:031][223]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-12.58.15:031][223]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-12.58.15:031][223]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-12.58.15:033][223]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-12.58.15:063][223]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-12.58.15:064][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-12.58.15:064][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-12.58.15:064][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-12.58.15:064][223]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.01.18-12.58.15:064][223]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.01.18-12.58.15:066][223]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.01.18-12.58.15:066][223]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.01.18-12.58.15:066][223]LogInit: FAudioDevice initialized with ID 12.
+[2024.01.18-12.58.15:066][223]LogAudio: Display: Audio Device (ID: 12) registered with world 'LevelMrMat'.
+[2024.01.18-12.58.15:066][223]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.18-12.58.15:069][223]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-12.58.15:078][223]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-13.58.15
+[2024.01.18-12.58.15:078][223]LogWorld: Bringing up level for play took: 0.009048
+[2024.01.18-12.58.15:080][223]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.01.18-12.58.15:082][223]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-12.58.15:082][223]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-12.58.15:082][223]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-12.58.15:082][223]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-12.58.15:082][223]PIE: Server logged in
+[2024.01.18-12.58.15:083][223]PIE: Play in editor total start time 0,084 seconds.
+[2024.01.18-12.58.28:508][327]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.28:998][368]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.29:507][411]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.30:003][452]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.30:500][494]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.39:503][183]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.40:001][223]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.40:508][265]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.41:006][306]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.45:003][634]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.45:509][676]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.46:009][717]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.58.46:500][757]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.10:498][733]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.11:003][775]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.11:499][816]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.12:004][857]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.12:508][898]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.18:002][345]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.18:502][385]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.19:006][426]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.19:509][467]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.33:505][630]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.34:010][671]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.34:500][712]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.35:004][753]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.36:004][841]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.36:502][885]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.37:008][928]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-12.59.37:501][971]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.00.01:032][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.00.01:032][918]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.00.01:033][918]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.00.01:038][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.00.01:041][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.00.01:047][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.00.01:060][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.00.01:060][918]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.18-13.00.01:060][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.18-13.00.01:062][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.18-13.00.01:075][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.01.18-13.00.01:136][919]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.01.18-13.00.01:530][951]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-13.00.01:537][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.00.01:537][951]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:00:01)
+[2024.01.18-13.00.01:537][951]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.00.01:552][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015005s)
+[2024.01.18-13.00.01:552][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015044s)
+[2024.01.18-13.00.01:565][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.18-13.00.01:567][951]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.00.01:568][951]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.00.01:568][951]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.00.01:569][951]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2024.01.18-13.00.01:569][951]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.01.18-13.00.01:569][951]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.00.01:569][951]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.00.01:569][951]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.00.01:569][951]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.00.01:569][951]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.00.01:569][951]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.00.01:569][951]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.00.01:569][951]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.00.01:569][951]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.00.01:569][951]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.00.01:569][951]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.00.01:571][951]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.00.01:600][951]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.00.01:600][951]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.00.01:600][951]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.00.01:600][951]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.00.01:601][951]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.01.18-13.00.01:601][951]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.01.18-13.00.01:603][951]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.01.18-13.00.01:603][951]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.01.18-13.00.01:603][951]LogInit: FAudioDevice initialized with ID 13.
+[2024.01.18-13.00.01:603][951]LogAudio: Display: Audio Device (ID: 13) registered with world 'LevelMrMat'.
+[2024.01.18-13.00.01:603][951]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.18-13.00.01:606][951]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.00.01:614][951]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.00.01
+[2024.01.18-13.00.01:614][951]LogWorld: Bringing up level for play took: 0.007808
+[2024.01.18-13.00.01:616][951]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.01.18-13.00.01:618][951]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.00.01:618][951]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.00.01:618][951]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.00.01:618][951]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.00.01:618][951]PIE: Server logged in
+[2024.01.18-13.00.01:619][951]PIE: Play in editor total start time 0,082 seconds.
+[2024.01.18-13.00.08:523][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.00.08:523][452]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.00.08:524][452]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.00.08:526][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.00.08:530][452]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.00.08:536][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.00.08:548][452]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-13.00.08:549][452]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.18-13.00.08:549][452]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.18-13.00.08:551][452]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.18-13.00.08:555][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.00.08:561][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.01.18-13.00.08:621][453]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.01.18-13.00.40:699][ 79]Cmd: TRANSACTION UNDO
+[2024.01.18-13.00.40:699][ 79]LogEditorTransaction: Undo Move Elements
+[2024.01.18-13.00.40:790][ 80]Cmd: ACTOR SELECT ALL
+[2024.01.18-13.00.59:129][498]Cmd: TRANSACTION UNDO
+[2024.01.18-13.00.59:129][498]LogEditorTransaction: Undo Move Elements
+[2024.01.18-13.01.02:713][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.01.02:796][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.18-13.01.02:851][692]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-13.01.02:852][692]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMat79BB29B04A51F6BC09F9F88EA5E21E08.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-13.01.02:860][692]LogFileHelpers: All files are already saved.
+[2024.01.18-13.01.02:860][692]LogFileHelpers: Saving map 'LevelMrMat' took 0.102
+[2024.01.18-13.01.02:874][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 1.74 sec)
+[2024.01.18-13.01.02:875][692]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-13.01.02:875][692]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-13.01.04:605][835]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-13.01.04:610][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.01.04:610][835]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:01:04)
+[2024.01.18-13.01.04:610][835]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.01.04:625][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014719s)
+[2024.01.18-13.01.04:625][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.014749s)
+[2024.01.18-13.01.04:640][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.18-13.01.04:641][835]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.01.04:641][835]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.01.04:641][835]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.01.04:642][835]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2024.01.18-13.01.04:642][835]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.01.18-13.01.04:642][835]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.01.04:642][835]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.01.04:642][835]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.01.04:642][835]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.01.04:642][835]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.01.04:642][835]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.01.04:642][835]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.01.04:642][835]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.01.04:642][835]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.01.04:642][835]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.01.04:642][835]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.01.04:644][835]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.01.04:675][835]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.01.04:675][835]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.01.04:675][835]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.01.04:675][835]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.01.04:676][835]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.01.18-13.01.04:676][835]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.01.18-13.01.04:677][835]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.01.18-13.01.04:677][835]LogInit: FAudioDevice initialized with ID 14.
+[2024.01.18-13.01.04:677][835]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.01.18-13.01.04:677][835]LogAudio: Display: Audio Device (ID: 14) registered with world 'LevelMrMat'.
+[2024.01.18-13.01.04:677][835]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.01.18-13.01.04:680][835]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.01.04:689][835]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.01.04
+[2024.01.18-13.01.04:689][835]LogWorld: Bringing up level for play took: 0.008828
+[2024.01.18-13.01.04:691][835]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.01.18-13.01.04:693][835]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.01.04:693][835]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.01.04:693][835]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.01.04:693][835]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.01.04:693][835]PIE: Server logged in
+[2024.01.18-13.01.04:694][835]PIE: Play in editor total start time 0,083 seconds.
+[2024.01.18-13.01.11:616][398]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.01.12:122][437]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.01.12:616][475]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.01.13:116][514]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.01.13:619][553]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.01.14:118][591]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.01.19:223][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.01.19:223][985]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.01.19:224][985]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.01.19:226][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.01.19:229][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.01.19:234][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.01.19:249][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.01.19:250][985]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.01.18-13.01.19:250][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.01.18-13.01.19:252][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.01.18-13.01.19:262][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.01.18-13.01.19:318][986]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.01.18-13.01.56:780][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.01.56:861][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.01.18-13.01.56:918][782]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-13.01.56:920][782]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMat50791F2A4FDCFD6DA3F9B6B38E086C5B.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-13.01.56:927][782]LogFileHelpers: All files are already saved.
+[2024.01.18-13.01.56:927][782]LogFileHelpers: Saving map 'LevelMrMat' took 0.105
+[2024.01.18-13.01.56:939][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 1.90 sec)
+[2024.01.18-13.01.56:940][782]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-13.01.56:940][782]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-13.01.57:654][844]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-13.01.57:661][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.01.57:661][844]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:01:57)
+[2024.01.18-13.01.57:682][844]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.01.57:697][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015618s)
+[2024.01.18-13.01.57:697][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015656s)
+[2024.01.18-13.01.57:712][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.01.18-13.01.57:713][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.01.57:713][844]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.01.57:714][844]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.01.57:714][844]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2024.01.18-13.01.57:714][844]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.01.18-13.01.57:714][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.01.57:714][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.01.57:714][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.01.57:714][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.01.57:714][844]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.01.57:714][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.01.57:714][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.01.57:714][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.01.57:715][844]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.01.57:715][844]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.01.57:715][844]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.01.57:716][844]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.01.57:747][844]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.01.57:747][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.01.57:747][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.01.57:747][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.01.57:748][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.01.18-13.01.57:748][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.01.18-13.01.57:749][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.01.18-13.01.57:749][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.01.18-13.01.57:749][844]LogInit: FAudioDevice initialized with ID 15.
+[2024.01.18-13.01.57:749][844]LogAudio: Display: Audio Device (ID: 15) registered with world 'LevelMrMat'.
+[2024.01.18-13.01.57:749][844]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.01.18-13.01.57:753][844]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.01.57:762][844]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.01.57
+[2024.01.18-13.01.57:762][844]LogWorld: Bringing up level for play took: 0.009400
+[2024.01.18-13.01.57:764][844]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.01.18-13.01.57:766][844]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.01.57:766][844]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.01.57:766][844]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.01.57:766][844]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.01.57:766][844]PIE: Server logged in
+[2024.01.18-13.01.57:767][844]PIE: Play in editor total start time 0,106 seconds.
+[2024.01.18-13.02.04:663][401]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.05:169][443]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.05:663][484]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.06:159][525]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.06:665][567]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.07:164][608]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.07:661][649]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.08:171][691]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.08:666][732]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.09:163][773]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.09:660][814]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.10:168][856]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.10:668][898]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.11:172][939]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.11:667][979]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.12:162][ 19]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.12:664][ 60]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.14:667][224]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.15:171][265]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.15:659][306]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.16:166][348]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.19:165][603]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.19:662][645]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.20:167][688]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.20:665][731]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.21:163][773]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.21:661][817]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.22:165][859]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.22:668][902]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.27:660][316]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.28:159][357]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.28:662][398]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.29:164][439]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.29:659][480]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.30:171][523]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.30:670][565]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.31:170][607]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.31:662][649]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.31:786][659]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.31:786][659]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.31:786][659]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.37:083][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.02.37:083][ 87]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.02.37:084][ 87]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.02.37:088][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.02.37:091][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.02.37:096][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.02.37:110][ 87]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-13.02.37:110][ 87]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.01.18-13.02.37:110][ 87]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.01.18-13.02.37:111][ 87]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.01.18-13.02.37:115][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.02.37:122][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.18-13.02.37:172][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.01.18-13.02.40:615][345]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-13.02.40:622][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.02.40:623][345]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:02:40)
+[2024.01.18-13.02.40:623][345]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.02.40:637][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014559s)
+[2024.01.18-13.02.40:637][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.014590s)
+[2024.01.18-13.02.40:650][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.18-13.02.40:653][345]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.02.40:653][345]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.02.40:653][345]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.02.40:654][345]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2024.01.18-13.02.40:654][345]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.01.18-13.02.40:654][345]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.02.40:654][345]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.02.40:654][345]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.02.40:654][345]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.02.40:654][345]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.02.40:654][345]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.02.40:654][345]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.02.40:654][345]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.02.40:654][345]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.02.40:654][345]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.02.40:654][345]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.02.40:656][345]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.02.40:686][345]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.02.40:686][345]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.02.40:686][345]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.02.40:686][345]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.02.40:687][345]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.01.18-13.02.40:687][345]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.01.18-13.02.40:689][345]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.01.18-13.02.40:689][345]LogInit: FAudioDevice initialized with ID 16.
+[2024.01.18-13.02.40:689][345]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.01.18-13.02.40:689][345]LogAudio: Display: Audio Device (ID: 16) registered with world 'LevelMrMat'.
+[2024.01.18-13.02.40:689][345]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.01.18-13.02.40:692][345]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.02.40:700][345]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.02.40
+[2024.01.18-13.02.40:701][345]LogWorld: Bringing up level for play took: 0.008670
+[2024.01.18-13.02.40:704][345]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.01.18-13.02.40:706][345]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.02.40:706][345]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.40:706][345]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.40:706][345]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.40:706][345]PIE: Server logged in
+[2024.01.18-13.02.40:707][345]PIE: Play in editor total start time 0,085 seconds.
+[2024.01.18-13.02.47:633][902]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.48:125][943]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.48:621][986]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.49:123][ 24]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.49:622][ 65]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.50:128][107]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.50:627][148]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.51:122][189]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.51:628][231]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.52:124][272]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.52:626][314]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.02.53:491][387]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.53:491][387]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.53:491][387]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.58:073][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.02.58:073][758]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.02.58:073][758]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.02.58:075][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.02.58:078][758]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.02.58:082][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.02.58:096][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.02.58:097][758]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.01.18-13.02.58:097][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.01.18-13.02.58:099][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.01.18-13.02.58:107][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.01.18-13.02.58:158][759]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.01.18-13.02.58:582][792]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-13.02.58:588][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.02.58:588][792]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:02:58)
+[2024.01.18-13.02.58:588][792]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.02.58:603][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014421s)
+[2024.01.18-13.02.58:603][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.014451s)
+[2024.01.18-13.02.58:616][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.18-13.02.58:619][792]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.02.58:619][792]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.02.58:619][792]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.02.58:620][792]LogPlayLevel: PIE: World Init took: (0.001238s)
+[2024.01.18-13.02.58:620][792]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.01.18-13.02.58:620][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.02.58:620][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.02.58:620][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.02.58:620][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.02.58:620][792]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.02.58:620][792]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.02.58:620][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.02.58:620][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.02.58:620][792]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.02.58:620][792]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.02.58:620][792]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.02.58:622][792]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.02.58:652][792]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.02.58:652][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.02.58:653][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.02.58:653][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.02.58:653][792]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.01.18-13.02.58:653][792]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.01.18-13.02.58:655][792]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.01.18-13.02.58:655][792]LogInit: FAudioDevice initialized with ID 17.
+[2024.01.18-13.02.58:655][792]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.01.18-13.02.58:655][792]LogAudio: Display: Audio Device (ID: 17) registered with world 'LevelMrMat'.
+[2024.01.18-13.02.58:655][792]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.01.18-13.02.58:658][792]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.02.58:666][792]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.02.58
+[2024.01.18-13.02.58:666][792]LogWorld: Bringing up level for play took: 0.007997
+[2024.01.18-13.02.58:668][792]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.01.18-13.02.58:671][792]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.02.58:671][792]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.58:671][792]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.58:671][792]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.02.58:671][792]PIE: Server logged in
+[2024.01.18-13.02.58:671][792]PIE: Play in editor total start time 0,084 seconds.
+[2024.01.18-13.03.06:594][444]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.07:096][487]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.08:596][611]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.09:090][652]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.09:588][693]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.10:096][735]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.10:592][776]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.11:099][817]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.11:597][860]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.14:094][ 71]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.14:596][114]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.15:087][154]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.15:594][196]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.16:449][268]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.03.16:449][268]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.03.16:449][268]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.03.32:893][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.03.32:893][618]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.03.32:894][618]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.03.32:895][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.03.32:898][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.03.32:904][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.03.32:917][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.03.32:919][618]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.01.18-13.03.32:919][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.01.18-13.03.32:921][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.01.18-13.03.32:929][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.18-13.03.32:979][619]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.01.18-13.03.33:508][662]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-13.03.33:514][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.03.33:514][662]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:03:33)
+[2024.01.18-13.03.33:514][662]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.03.33:529][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014951s)
+[2024.01.18-13.03.33:529][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.014976s)
+[2024.01.18-13.03.33:542][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.18-13.03.33:544][662]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.03.33:544][662]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.03.33:544][662]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.03.33:545][662]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2024.01.18-13.03.33:545][662]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.01.18-13.03.33:545][662]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.03.33:545][662]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.03.33:545][662]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.03.33:545][662]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.03.33:545][662]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.03.33:545][662]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.03.33:545][662]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.03.33:545][662]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.03.33:545][662]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.03.33:545][662]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.03.33:545][662]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.03.33:547][662]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.03.33:578][662]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.03.33:578][662]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.03.33:578][662]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.03.33:578][662]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.03.33:578][662]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.01.18-13.03.33:578][662]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.01.18-13.03.33:580][662]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.01.18-13.03.33:580][662]LogInit: FAudioDevice initialized with ID 18.
+[2024.01.18-13.03.33:580][662]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.01.18-13.03.33:580][662]LogAudio: Display: Audio Device (ID: 18) registered with world 'LevelMrMat'.
+[2024.01.18-13.03.33:580][662]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.01.18-13.03.33:583][662]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.03.33:592][662]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.03.33
+[2024.01.18-13.03.33:593][662]LogWorld: Bringing up level for play took: 0.009610
+[2024.01.18-13.03.33:595][662]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.01.18-13.03.33:596][662]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.03.33:596][662]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.03.33:596][662]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.03.33:596][662]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.03.33:596][662]PIE: Server logged in
+[2024.01.18-13.03.33:597][662]PIE: Play in editor total start time 0,084 seconds.
+[2024.01.18-13.03.41:519][297]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.42:021][339]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.42:514][380]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.43:021][422]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.43:517][463]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.44:015][504]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.44:519][546]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.45:017][587]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.45:513][628]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.46:023][670]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.46:518][711]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.47:016][752]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.47:525][794]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.48:023][835]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.48:522][876]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.49:022][918]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.03.49:880][989]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.03.49:880][989]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.03.49:880][989]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.03.59:173][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.03.59:173][760]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.03.59:174][760]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.03.59:176][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.03.59:179][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.03.59:184][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.03.59:198][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.03.59:199][760]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.01.18-13.03.59:199][760]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.01.18-13.03.59:201][760]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.01.18-13.03.59:210][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.01.18-13.03.59:260][761]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.01.18-13.06.28:396][196]LogViewport: Scene viewport resized to 1005x839, mode Windowed.
+[2024.01.18-13.08.03:546][559]LogViewport: Scene viewport resized to 1269x484, mode Windowed.
+[2024.01.18-13.08.04:303][559]LogViewport: Scene viewport resized to 2035x845, mode Windowed.
+[2024.01.18-13.08.12:823][212]Cmd: DELETE
+[2024.01.18-13.08.12:823][212]Cmd: ACTOR DELETE
+[2024.01.18-13.08.12:829][212]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.18-13.08.12:848][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.01.18-13.08.12:850][212]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2024.01.18-13.08.14:382][349]Cmd: DELETE
+[2024.01.18-13.08.14:383][349]Cmd: ACTOR DELETE
+[2024.01.18-13.08.14:389][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.18-13.08.14:405][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.01.18-13.08.14:408][349]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2024.01.18-13.08.16:944][572]Cmd: DELETE
+[2024.01.18-13.08.16:944][572]Cmd: ACTOR DELETE
+[2024.01.18-13.08.16:949][572]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.18-13.08.16:968][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.01.18-13.08.16:972][572]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2024.01.18-13.08.18:210][679]Cmd: DELETE
+[2024.01.18-13.08.18:210][679]Cmd: ACTOR DELETE
+[2024.01.18-13.08.18:215][679]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.18-13.08.18:233][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.01.18-13.08.18:237][679]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2024.01.18-13.08.23:182][ 81]LogShaderCompilers: Display: ================================================
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Total job queries 399, among them cache hits 168 (42.11%)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Tracking 229 distinct input hashes that result in 162 distinct outputs (70.74%)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: RAM used: 5,86 MiB of 1,60 GiB budget. Usage: 0.36%
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Shaders Compiled: 77
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Jobs assigned 77, completed 77 (100%)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Average time worker was idle: 14.59 s
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Time job spent in pending queue: average 0.27 s, longest 0.90 s
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 1.12 s
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Job life time (pending + execution): average 0.78 s, max 1.39
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Shader code size: average 42,98 KiB, min 4,898 KiB, max 82,957 KiB
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.07 s
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Jobs were issued in 77 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Average processing rate: 10.89 jobs/sec
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Total thread time: 29,654 s
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Total thread preprocess time: 2,602 s
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Percentage time preprocessing: 8.77%
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Effective parallelization: 4.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.47 sec, max 0.48 sec, min 0.47 sec)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display:                                                  FVelocityVS (compiled   10 times, average 0.46 sec, max 0.62 sec, min 0.28 sec)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   14 times, average 0.44 sec, max 0.73 sec, min 0.29 sec)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.95% of total time (compiled   14 times, average 0.44 sec, max 0.73 sec, min 0.29 sec)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display:                                                  FVelocityVS - 15.35% of total time (compiled   10 times, average 0.46 sec, max 0.62 sec, min 0.28 sec)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display:                                                  FHitProxyVS - 14.11% of total time (compiled   10 times, average 0.42 sec, max 0.55 sec, min 0.28 sec)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.78% of total time (compiled   13 times, average 0.31 sec, max 0.54 sec, min 0.23 sec)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.69% of total time (compiled    5 times, average 0.40 sec, max 0.47 sec, min 0.32 sec)
+[2024.01.18-13.08.23:183][ 81]LogShaderCompilers: Display: ================================================
+[2024.01.18-13.08.26:940][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.08.27:031][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.01.18-13.08.27:085][352]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-13.08.27:086][352]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMatABB6EA3D4B44928DDA643989F915044E.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-13.08.27:094][352]LogFileHelpers: All files are already saved.
+[2024.01.18-13.08.27:094][352]LogFileHelpers: Saving map 'LevelMrMat' took 0.103
+[2024.01.18-13.08.27:107][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 2.06 sec)
+[2024.01.18-13.08.27:109][352]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-13.08.27:109][352]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-13.08.51:482][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.08.51:482][318]PIE: New page: PIE session: LevelMrMat (18 janv. 2024 à 15:08:51)
+[2024.01.18-13.08.51:482][318]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.08.51:497][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015026s)
+[2024.01.18-13.08.51:497][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015056s)
+[2024.01.18-13.08.51:512][318]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.01.18-13.08.51:513][318]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.08.51:513][318]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.08.51:513][318]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.08.51:514][318]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2024.01.18-13.08.51:514][318]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.01.18-13.08.51:514][318]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.08.51:514][318]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.08.51:514][318]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.08.51:514][318]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.08.51:514][318]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.08.51:514][318]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.08.51:514][318]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.08.51:514][318]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.08.51:514][318]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.08.51:514][318]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.08.51:514][318]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.08.51:516][318]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.08.51:548][318]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.08.51:548][318]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.08.51:548][318]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.08.51:548][318]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.08.51:549][318]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.01.18-13.08.51:549][318]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.01.18-13.08.51:551][318]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.01.18-13.08.51:551][318]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.01.18-13.08.51:551][318]LogInit: FAudioDevice initialized with ID 19.
+[2024.01.18-13.08.51:551][318]LogAudio: Display: Audio Device (ID: 19) registered with world 'LevelMrMat'.
+[2024.01.18-13.08.51:551][318]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.01.18-13.08.51:554][318]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.08.51:563][318]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.08.51
+[2024.01.18-13.08.51:563][318]LogWorld: Bringing up level for play took: 0.009001
+[2024.01.18-13.08.51:565][318]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.01.18-13.08.51:569][318]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.08.51:569][318]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.08.51:569][318]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.08.51:569][318]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.08.51:570][318]PIE: Server logged in
+[2024.01.18-13.08.51:570][318]PIE: Play in editor total start time 0,089 seconds.
+[2024.01.18-13.09.03:456][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.09.03:456][334]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.09.03:456][334]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.09.03:459][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.09.03:463][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.09.03:467][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.09.03:482][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.09.03:484][334]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.01.18-13.09.03:484][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.01.18-13.09.03:486][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.01.18-13.09.03:496][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.01.18-13.09.03:575][335]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.01.18-13.09.11:831][986]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.09.11:912][987]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.09.21:699][707]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.09.21:778][708]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.09.21:816][709]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.11.59:313][691]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.12.11:222][667]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.12.22:046][515]Cmd: DELETE
+[2024.01.18-13.12.22:046][515]Cmd: ACTOR DELETE
+[2024.01.18-13.12.22:051][515]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.18-13.12.22:069][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.01.18-13.12.22:072][515]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2024.01.18-13.12.22:906][592]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.12.23:096][599]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Spawner/BP_OceanWater_Respawner.BP_OceanWater_Respawner_C
+[2024.01.18-13.12.23:096][599]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Spawner/BP_OceanWater_Respawner.BP_OceanWater_Respawner_C
+[2024.01.18-13.12.23:097][599]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Spawner/BP_OceanWater_Respawner.BP_OceanWater_Respawner as actor: BP_OceanWater_Respawner_C /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.BP_OceanWater_Respawner_C_0
+[2024.01.18-13.12.23:097][599]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Spawner/BP_OceanWater_Respawner.BP_OceanWater_Respawner as actor: BP_OceanWater_Respawner_C /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.BP_OceanWater_Respawner_C_0
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: ================================================
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Total job queries 403, among them cache hits 170 (42.18%)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Tracking 230 distinct input hashes that result in 162 distinct outputs (70.43%)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: RAM used: 5,88 MiB of 1,60 GiB budget. Usage: 0.36%
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Shaders Compiled: 78
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Jobs assigned 79, completed 78 (98.73%)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Average time worker was idle: 62.76 s
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Time job spent in pending queue: average 0.26 s, longest 0.90 s
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 1.12 s
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Job life time (pending + execution): average 0.77 s, max 1.39
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Shader code size: average 42,892 KiB, min 4,898 KiB, max 82,957 KiB
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.59 s
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Jobs were issued in 79 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Average processing rate: 10.28 jobs/sec
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Total thread time: 29,921 s
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Total thread preprocess time: 2,631 s
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Percentage time preprocessing: 8.79%
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Effective parallelization: 3.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.47 sec, max 0.48 sec, min 0.47 sec)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display:                                                  FVelocityVS (compiled   10 times, average 0.46 sec, max 0.62 sec, min 0.28 sec)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   14 times, average 0.44 sec, max 0.73 sec, min 0.29 sec)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.76% of total time (compiled   14 times, average 0.44 sec, max 0.73 sec, min 0.29 sec)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display:                                                  FVelocityVS - 15.21% of total time (compiled   10 times, average 0.46 sec, max 0.62 sec, min 0.28 sec)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display:                                                  FHitProxyVS - 13.98% of total time (compiled   10 times, average 0.42 sec, max 0.55 sec, min 0.28 sec)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.65% of total time (compiled   13 times, average 0.31 sec, max 0.54 sec, min 0.23 sec)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 6.73% of total time (compiled    6 times, average 0.34 sec, max 0.39 sec, min 0.27 sec)
+[2024.01.18-13.12.23:638][651]LogShaderCompilers: Display: ================================================
+[2024.01.18-13.12.25:437][792]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Spawner/BP_OceanWater_Respawner.BP_OceanWater_Respawner_C
+[2024.01.18-13.12.25:437][792]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Spawner/BP_OceanWater_Respawner.BP_OceanWater_Respawner_C
+[2024.01.18-13.12.25:439][792]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Spawner/BP_OceanWater_Respawner.BP_OceanWater_Respawner as actor: BP_OceanWater_Respawner_C /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.BP_OceanWater_Respawner_C_1
+[2024.01.18-13.12.25:440][792]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Spawner/BP_OceanWater_Respawner.BP_OceanWater_Respawner as actor: BP_OceanWater_Respawner_C /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.BP_OceanWater_Respawner_C_1
+[2024.01.18-13.13.12:366][426]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.18-13.13.12:373][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.13.12:373][426]PIE: New page: PIE session: LevelMrMat (18 janv. 2024 à 15:13:12)
+[2024.01.18-13.13.12:396][426]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.13.12:411][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015718s)
+[2024.01.18-13.13.12:411][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015757s)
+[2024.01.18-13.13.12:427][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.18-13.13.12:430][426]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.13.12:430][426]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.13.12:430][426]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.13.12:430][426]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2024.01.18-13.13.12:430][426]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.01.18-13.13.12:430][426]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.13.12:430][426]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.13.12:430][426]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.13.12:430][426]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.13.12:430][426]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.13.12:430][426]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.13.12:430][426]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.13.12:431][426]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.13.12:431][426]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.13.12:431][426]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.13.12:431][426]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.13.12:433][426]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.13.12:465][426]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.13.12:465][426]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.13.12:465][426]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.13.12:465][426]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.13.12:466][426]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.01.18-13.13.12:466][426]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.01.18-13.13.12:468][426]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.01.18-13.13.12:468][426]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.01.18-13.13.12:468][426]LogInit: FAudioDevice initialized with ID 20.
+[2024.01.18-13.13.12:468][426]LogAudio: Display: Audio Device (ID: 20) registered with world 'LevelMrMat'.
+[2024.01.18-13.13.12:468][426]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.01.18-13.13.12:472][426]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.13.12:480][426]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.13.12
+[2024.01.18-13.13.12:481][426]LogWorld: Bringing up level for play took: 0.008374
+[2024.01.18-13.13.12:483][426]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.01.18-13.13.12:487][426]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.13.12:487][426]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.13.12:487][426]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.13.12:487][426]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.13.12:488][426]PIE: Server logged in
+[2024.01.18-13.13.12:488][426]PIE: Play in editor total start time 0,115 seconds.
+[2024.01.18-13.13.20:877][153]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.13.21:382][197]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.13.21:882][240]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.13.34:221][288]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.13.34:221][288]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.13.34:221][288]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.13.36:347][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.13.36:347][471]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.13.36:348][471]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.13.36:350][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.13.36:354][471]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.13.36:359][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.13.36:374][471]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-13.13.36:375][471]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.01.18-13.13.36:375][471]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.01.18-13.13.36:376][471]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.01.18-13.13.36:380][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.13.36:386][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.01.18-13.13.36:464][472]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.01.18-13.13.57:036][208]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.13.57:112][209]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.14.02:289][626]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/BP_JumpNavLink.BP_JumpNavLink_C
+[2024.01.18-13.14.02:289][626]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/BP_JumpNavLink.BP_JumpNavLink_C
+[2024.01.18-13.14.02:290][626]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/BP_JumpNavLink.BP_JumpNavLink as actor: BP_JumpNavLink_C /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.BP_JumpNavLink_C_4
+[2024.01.18-13.14.02:290][626]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/BP_JumpNavLink.BP_JumpNavLink as actor: BP_JumpNavLink_C /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.BP_JumpNavLink_C_4
+[2024.01.18-13.14.02:586][650]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/BP_JumpNavLink.BP_JumpNavLink_C
+[2024.01.18-13.14.02:586][650]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/BP_JumpNavLink.BP_JumpNavLink_C
+[2024.01.18-13.14.02:588][650]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/BP_JumpNavLink.BP_JumpNavLink as actor: BP_JumpNavLink_C /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.BP_JumpNavLink_C_6
+[2024.01.18-13.14.02:588][650]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/BP_JumpNavLink.BP_JumpNavLink as actor: BP_JumpNavLink_C /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.BP_JumpNavLink_C_6
+[2024.01.18-13.14.26:234][646]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.14.26:315][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.18-13.14.26:372][646]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-13.14.26:373][646]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMatF4FA3F524C74263D3C54BB89B347CF61.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-13.14.26:379][646]LogFileHelpers: All files are already saved.
+[2024.01.18-13.14.26:379][646]LogFileHelpers: Saving map 'LevelMrMat' took 0.104
+[2024.01.18-13.14.26:392][646]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 2.22 sec)
+[2024.01.18-13.14.26:395][646]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-13.14.26:395][646]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-13.14.36:007][458]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.14.36:085][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.01.18-13.14.36:140][458]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-13.14.36:140][458]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMat64DC2080410AE284E367929ED8E6EFCA.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-13.14.36:148][458]LogFileHelpers: All files are already saved.
+[2024.01.18-13.14.36:148][458]LogFileHelpers: Saving map 'LevelMrMat' took 0.103
+[2024.01.18-13.14.36:153][458]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 2.37 sec)
+[2024.01.18-13.14.36:156][458]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-13.14.36:156][458]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-13.14.37:479][546]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.18-13.14.37:486][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.14.37:486][546]PIE: New page: PIE session: LevelMrMat (18 janv. 2024 à 15:14:37)
+[2024.01.18-13.14.37:517][546]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.14.37:533][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015605s)
+[2024.01.18-13.14.37:533][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015666s)
+[2024.01.18-13.14.37:547][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.18-13.14.37:548][546]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.14.37:548][546]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.14.37:548][546]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.14.37:549][546]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2024.01.18-13.14.37:549][546]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.01.18-13.14.37:549][546]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.14.37:549][546]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.14.37:549][546]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.14.37:549][546]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.14.37:549][546]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.14.37:549][546]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.14.37:549][546]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.14.37:549][546]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.14.37:549][546]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.14.37:549][546]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.14.37:549][546]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.14.37:551][546]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.14.37:583][546]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.14.37:583][546]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.14.37:583][546]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.14.37:583][546]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.14.37:584][546]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.01.18-13.14.37:584][546]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.01.18-13.14.37:587][546]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.01.18-13.14.37:587][546]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.01.18-13.14.37:587][546]LogInit: FAudioDevice initialized with ID 21.
+[2024.01.18-13.14.37:587][546]LogAudio: Display: Audio Device (ID: 21) registered with world 'LevelMrMat'.
+[2024.01.18-13.14.37:587][546]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.01.18-13.14.37:590][546]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.14.37:598][546]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.14.37
+[2024.01.18-13.14.37:598][546]LogWorld: Bringing up level for play took: 0.008679
+[2024.01.18-13.14.37:601][546]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.01.18-13.14.37:604][546]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.14.37:605][546]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.14.37:605][546]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.14.37:605][546]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.14.37:605][546]PIE: Server logged in
+[2024.01.18-13.14.37:606][546]PIE: Play in editor total start time 0,119 seconds.
+[2024.01.18-13.14.46:494][320]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.14.54:773][ 43]LogCharacterMovement: BP_Skeleton_C_3 is stuck and failed to move! Velocity: X=53.54 Y=-197.50 Z=0.00 Location: X=4679.70 Y=1157.50 Z=932.15 Normal: X=0.83 Y=0.56 Z=0.00 PenetrationDepth:6.001 Actor:BP_FirstPersonProjectile_C_14 Component:CollisionComponent BoneName:None (0 other events since notify)
+[2024.01.18-13.14.55:995][146]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.14.56:487][188]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.14.56:984][230]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.14.57:492][273]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.14.57:944][313]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.14.57:944][313]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.14.57:944][313]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.15.08:409][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.15.08:409][307]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.15.08:409][307]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.15.08:411][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.15.08:414][307]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.15.08:421][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.15.08:435][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.15.08:437][307]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.01.18-13.15.08:437][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.01.18-13.15.08:439][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.01.18-13.15.08:447][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.01.18-13.15.08:512][308]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.01.18-13.15.10:660][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.15.10:660][462]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:15:10)
+[2024.01.18-13.15.10:687][462]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.15.10:704][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016645s)
+[2024.01.18-13.15.10:704][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.016687s)
+[2024.01.18-13.15.10:718][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.18-13.15.10:721][462]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.15.10:721][462]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.15.10:722][462]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.15.10:722][462]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2024.01.18-13.15.10:722][462]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.01.18-13.15.10:722][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.15.10:722][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.15.10:722][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.15.10:722][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.15.10:722][462]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.15.10:722][462]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.15.10:722][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.15.10:722][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.15.10:723][462]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.15.10:723][462]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.15.10:723][462]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.15.10:725][462]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.15.10:755][462]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.15.10:755][462]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.15.10:756][462]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.15.10:756][462]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.15.10:756][462]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.01.18-13.15.10:756][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.01.18-13.15.10:758][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.01.18-13.15.10:758][462]LogInit: FAudioDevice initialized with ID 22.
+[2024.01.18-13.15.10:758][462]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.01.18-13.15.10:758][462]LogAudio: Display: Audio Device (ID: 22) registered with world 'LevelMrMat'.
+[2024.01.18-13.15.10:758][462]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.01.18-13.15.10:761][462]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.15.10:770][462]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.15.10
+[2024.01.18-13.15.10:770][462]LogWorld: Bringing up level for play took: 0.009713
+[2024.01.18-13.15.10:773][462]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.01.18-13.15.10:775][462]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.15.10:775][462]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.15.10:775][462]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.15.10:775][462]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.15.10:775][462]PIE: Server logged in
+[2024.01.18-13.15.10:775][462]PIE: Play in editor total start time 0,115 seconds.
+[2024.01.18-13.15.17:649][ 34]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.18:140][ 74]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.18:642][117]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.19:143][160]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.19:647][204]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.20:141][247]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.23:142][495]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.23:650][536]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.45:148][282]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.45:642][323]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.46:140][363]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.46:649][407]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.48:148][530]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.48:639][569]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.49:138][608]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.49:647][648]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.54:648][ 49]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.55:146][ 90]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.55:645][132]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.56:140][172]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.15.59:508][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.15.59:508][415]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.15.59:509][415]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.15.59:513][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.15.59:516][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.15.59:522][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.15.59:537][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.15.59:539][415]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.01.18-13.15.59:539][415]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.01.18-13.15.59:540][415]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.01.18-13.15.59:551][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.01.18-13.15.59:602][416]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.01.18-13.16.00:556][488]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-13.16.00:562][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.16.00:562][488]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:16:00)
+[2024.01.18-13.16.00:562][488]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.16.00:577][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015406s)
+[2024.01.18-13.16.00:577][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015436s)
+[2024.01.18-13.16.00:592][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.18-13.16.00:594][488]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.16.00:594][488]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.16.00:594][488]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.16.00:595][488]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2024.01.18-13.16.00:595][488]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.01.18-13.16.00:595][488]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.16.00:595][488]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.16.00:595][488]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.16.00:595][488]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.16.00:595][488]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.16.00:595][488]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.16.00:595][488]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.16.00:595][488]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.16.00:595][488]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.16.00:595][488]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.16.00:595][488]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.16.00:597][488]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.16.00:629][488]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.16.00:629][488]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.16.00:629][488]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.16.00:629][488]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.16.00:630][488]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.01.18-13.16.00:630][488]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.01.18-13.16.00:632][488]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.01.18-13.16.00:632][488]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.01.18-13.16.00:632][488]LogInit: FAudioDevice initialized with ID 23.
+[2024.01.18-13.16.00:632][488]LogAudio: Display: Audio Device (ID: 23) registered with world 'LevelMrMat'.
+[2024.01.18-13.16.00:632][488]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.01.18-13.16.00:635][488]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.16.00:644][488]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.16.00
+[2024.01.18-13.16.00:644][488]LogWorld: Bringing up level for play took: 0.008437
+[2024.01.18-13.16.00:646][488]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.01.18-13.16.00:648][488]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.16.00:648][488]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.16.00:648][488]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.16.00:648][488]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.16.00:648][488]PIE: Server logged in
+[2024.01.18-13.16.00:649][488]PIE: Play in editor total start time 0,087 seconds.
+[2024.01.18-13.16.07:572][ 29]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.08:073][ 69]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.08:564][108]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.10:568][268]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.12:564][431]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.13:066][471]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.13:562][511]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.14:074][552]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.15:071][633]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.15:561][672]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.16:070][712]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.16:588][752]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.21:062][122]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.21:570][165]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.22:060][206]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.22:560][249]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.23:062][292]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.23:568][331]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.26:066][544]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.26:565][587]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.27:067][630]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.27:571][674]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.16.27:931][705]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.16.27:931][705]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.16.27:931][705]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.16.29:008][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.16.29:009][787]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.16.29:009][787]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.16.29:012][787]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.16.29:015][787]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.16.29:022][787]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.16.29:035][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.16.29:037][787]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.01.18-13.16.29:038][787]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.01.18-13.16.29:039][787]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.01.18-13.16.29:049][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.01.18-13.16.29:100][788]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.01.18-13.16.42:923][861]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.16.43:004][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.01.18-13.16.43:060][861]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-13.16.43:060][861]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMat19A82A774AC200061ECE0AB30C830718.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-13.16.43:068][861]LogFileHelpers: All files are already saved.
+[2024.01.18-13.16.43:069][861]LogFileHelpers: Saving map 'LevelMrMat' took 0.104
+[2024.01.18-13.16.43:081][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 2.52 sec)
+[2024.01.18-13.16.43:084][861]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-13.16.43:084][861]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-13.16.44:005][934]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-13.16.44:012][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.16.44:012][934]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:16:44)
+[2024.01.18-13.16.44:038][934]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.16.44:053][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014870s)
+[2024.01.18-13.16.44:053][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.014918s)
+[2024.01.18-13.16.44:068][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.18-13.16.44:069][934]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.16.44:070][934]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.16.44:070][934]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.16.44:071][934]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2024.01.18-13.16.44:071][934]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.01.18-13.16.44:071][934]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.16.44:071][934]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.16.44:071][934]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.16.44:071][934]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.16.44:071][934]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.16.44:071][934]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.16.44:071][934]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.16.44:071][934]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.16.44:071][934]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.16.44:071][934]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.16.44:071][934]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.16.44:073][934]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.16.44:103][934]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.16.44:103][934]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.16.44:103][934]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.16.44:103][934]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.16.44:104][934]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.01.18-13.16.44:104][934]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.01.18-13.16.44:107][934]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.01.18-13.16.44:107][934]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.01.18-13.16.44:107][934]LogInit: FAudioDevice initialized with ID 24.
+[2024.01.18-13.16.44:107][934]LogAudio: Display: Audio Device (ID: 24) registered with world 'LevelMrMat'.
+[2024.01.18-13.16.44:107][934]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.01.18-13.16.44:109][934]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.16.44:117][934]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.16.44
+[2024.01.18-13.16.44:118][934]LogWorld: Bringing up level for play took: 0.008935
+[2024.01.18-13.16.44:121][934]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.01.18-13.16.44:123][934]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.16.44:123][934]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.16.44:123][934]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.16.44:123][934]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.16.44:123][934]PIE: Server logged in
+[2024.01.18-13.16.44:124][934]PIE: Play in editor total start time 0,112 seconds.
+[2024.01.18-13.16.50:649][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.16.50:649][444]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.16.50:650][444]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.16.50:652][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.16.50:662][444]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.16.50:666][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.16.50:682][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.16.50:682][444]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.01.18-13.16.50:682][444]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.01.18-13.16.50:684][444]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.01.18-13.16.50:695][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.01.18-13.16.50:746][445]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.01.18-13.17.03:476][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.17.03:562][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.18-13.17.03:618][410]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-13.17.03:619][410]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMat5EB20399426A74BD0E6980A6C0F2F9BE.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-13.17.03:627][410]LogFileHelpers: All files are already saved.
+[2024.01.18-13.17.03:627][410]LogFileHelpers: Saving map 'LevelMrMat' took 0.104
+[2024.01.18-13.17.03:642][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 2.69 sec)
+[2024.01.18-13.17.03:645][410]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-13.17.03:645][410]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-13.17.04:409][473]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-13.17.04:415][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.17.04:415][473]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:17:04)
+[2024.01.18-13.17.04:415][473]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.17.04:430][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015341s)
+[2024.01.18-13.17.04:430][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015372s)
+[2024.01.18-13.17.04:445][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.18-13.17.04:446][473]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.17.04:447][473]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.17.04:447][473]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.17.04:447][473]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2024.01.18-13.17.04:447][473]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.01.18-13.17.04:447][473]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.17.04:447][473]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.17.04:447][473]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.17.04:447][473]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.17.04:447][473]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.17.04:447][473]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.17.04:447][473]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.17.04:447][473]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.17.04:448][473]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.17.04:448][473]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.17.04:448][473]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.17.04:450][473]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.17.04:479][473]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.17.04:479][473]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.17.04:479][473]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.17.04:480][473]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.17.04:481][473]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.01.18-13.17.04:481][473]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.01.18-13.17.04:482][473]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.01.18-13.17.04:482][473]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.01.18-13.17.04:482][473]LogInit: FAudioDevice initialized with ID 25.
+[2024.01.18-13.17.04:482][473]LogAudio: Display: Audio Device (ID: 25) registered with world 'LevelMrMat'.
+[2024.01.18-13.17.04:482][473]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.01.18-13.17.04:486][473]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.17.04:495][473]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.17.04
+[2024.01.18-13.17.04:496][473]LogWorld: Bringing up level for play took: 0.009027
+[2024.01.18-13.17.04:498][473]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2024.01.18-13.17.04:500][473]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.17.04:500][473]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.17.04:500][473]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.17.04:500][473]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.17.04:500][473]PIE: Server logged in
+[2024.01.18-13.17.04:501][473]PIE: Play in editor total start time 0,087 seconds.
+[2024.01.18-13.17.18:414][563]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.18:922][601]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.19:414][638]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.19:924][676]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.20:415][713]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.20:925][751]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.21:414][788]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.21:923][826]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.22:415][863]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.22:922][901]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.31:921][570]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.31:922][570]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.32:419][606]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.32:420][606]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.32:918][643]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.32:919][643]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.33:415][680]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.33:416][680]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.33:913][716]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.34:422][754]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.34:916][788]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.35:419][811]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.35:926][840]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.17.36:309][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.17.36:309][867]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.17.36:310][867]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.17.36:313][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.17.36:317][867]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.17.36:323][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.17.36:338][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.17.36:340][867]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.01.18-13.17.36:340][867]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.01.18-13.17.36:341][867]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.01.18-13.17.36:352][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.01.18-13.17.36:412][868]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.01.18-13.17.37:975][  5]Cmd: DELETE
+[2024.01.18-13.17.37:975][  5]Cmd: ACTOR DELETE
+[2024.01.18-13.17.37:981][  5]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.18-13.17.37:983][  5]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.18-13.17.38:004][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.01.18-13.17.38:008][  5]LogEditorActor: Deleted 2 Actors (0.033 secs)
+[2024.01.18-13.17.39:143][105]Cmd: TRANSACTION UNDO
+[2024.01.18-13.17.39:143][105]LogEditorTransaction: Undo Delete Elements
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: ================================================
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Total job queries 404, among them cache hits 170 (42.08%)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Tracking 232 distinct input hashes that result in 164 distinct outputs (70.69%)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: RAM used: 5,95 MiB of 1,60 GiB budget. Usage: 0.36%
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Shaders Compiled: 79
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Jobs assigned 79, completed 79 (100%)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Average time worker was idle: 62.76 s
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Time job spent in pending queue: average 0.26 s, longest 0.90 s
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 1.12 s
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Job life time (pending + execution): average 0.77 s, max 1.39
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Shader code size: average 43,135 KiB, min 4,898 KiB, max 82,957 KiB
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.69 s
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Jobs were issued in 79 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Average processing rate: 10.27 jobs/sec
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Total thread time: 30,335 s
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Total thread preprocess time: 2,669 s
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Percentage time preprocessing: 8.80%
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Effective parallelization: 3.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.47 sec, max 0.48 sec, min 0.47 sec)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display:                                                  FVelocityVS (compiled   10 times, average 0.46 sec, max 0.62 sec, min 0.28 sec)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   14 times, average 0.44 sec, max 0.73 sec, min 0.29 sec)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.48% of total time (compiled   14 times, average 0.44 sec, max 0.73 sec, min 0.29 sec)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display:                                                  FVelocityVS - 15.00% of total time (compiled   10 times, average 0.46 sec, max 0.62 sec, min 0.28 sec)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display:                                                  FHitProxyVS - 13.79% of total time (compiled   10 times, average 0.42 sec, max 0.55 sec, min 0.28 sec)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.47% of total time (compiled   13 times, average 0.31 sec, max 0.54 sec, min 0.23 sec)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.91% of total time (compiled    6 times, average 0.40 sec, max 0.47 sec, min 0.32 sec)
+[2024.01.18-13.17.39:162][105]LogShaderCompilers: Display: ================================================
+[2024.01.18-13.17.39:213][105]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.17.39:333][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.01.18-13.17.39:387][105]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-13.17.39:388][105]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMat0E89594E46EF1DBA1459ECAE90A9FFE6.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-13.17.39:395][105]LogFileHelpers: All files are already saved.
+[2024.01.18-13.17.39:395][105]LogFileHelpers: Saving map 'LevelMrMat' took 0.104
+[2024.01.18-13.17.39:456][105]LogFileHelpers: InternalPromptForCheckoutAndSave took 243 ms (total: 2.93 sec)
+[2024.01.18-13.17.39:459][105]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-13.17.39:459][105]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-13.17.42:091][288]Cmd: DELETE
+[2024.01.18-13.17.42:091][288]Cmd: ACTOR DELETE
+[2024.01.18-13.17.42:096][288]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.18-13.17.42:097][288]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.18-13.17.42:115][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.01.18-13.17.42:122][288]LogEditorActor: Deleted 2 Actors (0.031 secs)
+[2024.01.18-13.17.42:415][310]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.17.42:504][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.01.18-13.17.42:561][310]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-13.17.42:562][310]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMat8BDC8E6942748052FA7CF4A6835C1212.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-13.17.42:569][310]LogFileHelpers: All files are already saved.
+[2024.01.18-13.17.42:569][310]LogFileHelpers: Saving map 'LevelMrMat' took 0.102
+[2024.01.18-13.17.42:575][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 3.09 sec)
+[2024.01.18-13.17.42:577][310]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-13.17.42:577][310]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-13.19.30:579][591]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/UndeadPack/Zombie/BPA_Zombie.BPA_Zombie
+[2024.01.18-13.19.30:579][591]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/UndeadPack/Zombie/BPA_Zombie.BPA_Zombie
+[2024.01.18-13.19.30:579][591]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/UndeadPack/Zombie/Mesh/SK_Zombie.SK_Zombie as actor: SkeletalMeshActor /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.SkeletalMeshActor_0
+[2024.01.18-13.19.30:581][591]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/UndeadPack/Zombie/Mesh/SK_Zombie.SK_Zombie as actor: SkeletalMeshActor /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.SkeletalMeshActor_0
+[2024.01.18-13.19.30:878][609]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/UndeadPack/Zombie/BPA_Zombie.BPA_Zombie
+[2024.01.18-13.19.30:878][609]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/UndeadPack/Zombie/BPA_Zombie.BPA_Zombie
+[2024.01.18-13.19.30:880][609]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/UndeadPack/Zombie/Mesh/SK_Zombie.SK_Zombie as actor: SkeletalMeshActor /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.SkeletalMeshActor_1
+[2024.01.18-13.19.30:882][609]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/UndeadPack/Zombie/Mesh/SK_Zombie.SK_Zombie as actor: SkeletalMeshActor /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.SkeletalMeshActor_1
+[2024.01.18-13.19.30:958][610]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.19.34:526][896]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.18-13.19.34:533][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.19.34:533][896]PIE: New page: SIE session: LevelMrMat (18 janv. 2024 à 15:19:34)
+[2024.01.18-13.19.34:559][896]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.19.34:574][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014640s)
+[2024.01.18-13.19.34:574][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.014679s)
+[2024.01.18-13.19.34:588][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.01.18-13.19.34:591][896]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.19.34:591][896]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.19.34:591][896]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.19.34:591][896]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2024.01.18-13.19.34:592][896]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.01.18-13.19.34:592][896]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.19.34:592][896]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.19.34:592][896]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.19.34:592][896]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.19.34:592][896]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.19.34:592][896]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.19.34:592][896]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.19.34:592][896]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.19.34:592][896]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.19.34:592][896]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.19.34:592][896]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.19.34:594][896]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.19.34:625][896]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.19.34:626][896]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.19.34:626][896]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.19.34:626][896]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.19.34:626][896]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.01.18-13.19.34:626][896]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.01.18-13.19.34:628][896]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.01.18-13.19.34:628][896]LogInit: FAudioDevice initialized with ID 26.
+[2024.01.18-13.19.34:628][896]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.01.18-13.19.34:628][896]LogAudio: Display: Audio Device (ID: 26) registered with world 'LevelMrMat'.
+[2024.01.18-13.19.34:628][896]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.01.18-13.19.34:631][896]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.19.34:641][896]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.19.34
+[2024.01.18-13.19.34:642][896]LogWorld: Bringing up level for play took: 0.010060
+[2024.01.18-13.19.34:644][896]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.01.18-13.19.34:646][896]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.19.34:646][896]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.19.34:646][896]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.19.34:646][896]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.19.34:646][896]PIE: Server logged in
+[2024.01.18-13.19.34:646][896]PIE: Play in editor total start time 0,113 seconds.
+[2024.01.18-13.19.41:534][442]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.19.42:041][483]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.19.42:532][523]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.19.43:032][560]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.19.43:536][599]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.19.44:029][635]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.19.44:532][653]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.19.45:080][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.19.45:080][696]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.19.45:082][696]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.19.45:085][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.19.45:090][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.19.45:094][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.19.45:111][696]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-13.19.45:111][696]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.01.18-13.19.45:111][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.01.18-13.19.45:113][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.01.18-13.19.45:117][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.19.45:124][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.01.18-13.19.45:186][697]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.01.18-13.19.48:786][981]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/UndeadPack/Zombie/BPA_Zombie.BPA_Zombie
+[2024.01.18-13.19.48:786][981]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/UndeadPack/Zombie/BPA_Zombie.BPA_Zombie
+[2024.01.18-13.19.48:786][981]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/UndeadPack/Zombie/Mesh/SK_Zombie.SK_Zombie as actor: SkeletalMeshActor /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.SkeletalMeshActor_2
+[2024.01.18-13.19.48:788][981]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/UndeadPack/Zombie/Mesh/SK_Zombie.SK_Zombie as actor: SkeletalMeshActor /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.SkeletalMeshActor_2
+[2024.01.18-13.19.49:034][  1]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/UndeadPack/Zombie/BPA_Zombie.BPA_Zombie
+[2024.01.18-13.19.49:034][  1]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/UndeadPack/Zombie/BPA_Zombie.BPA_Zombie
+[2024.01.18-13.19.49:036][  1]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/UndeadPack/Zombie/Mesh/SK_Zombie.SK_Zombie as actor: SkeletalMeshActor /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.SkeletalMeshActor_3
+[2024.01.18-13.19.49:037][  1]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/UndeadPack/Zombie/Mesh/SK_Zombie.SK_Zombie as actor: SkeletalMeshActor /Game/Game/Maps/LevelMrMat.LevelMrMat:PersistentLevel.SkeletalMeshActor_3
+[2024.01.18-13.19.50:833][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.19.50:833][149]PIE: New page: PIE session: LevelMrMat (18 janv. 2024 à 15:19:50)
+[2024.01.18-13.19.50:833][149]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.19.50:852][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018747s)
+[2024.01.18-13.19.50:852][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.018780s)
+[2024.01.18-13.19.50:866][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.18-13.19.50:869][149]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.19.50:870][149]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.19.50:870][149]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.19.50:870][149]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2024.01.18-13.19.50:871][149]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.01.18-13.19.50:871][149]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.19.50:871][149]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.19.50:871][149]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.19.50:871][149]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.19.50:871][149]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.19.50:871][149]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.19.50:871][149]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.19.50:871][149]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.19.50:871][149]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.19.50:871][149]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.19.50:871][149]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.19.50:873][149]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.19.50:904][149]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.19.50:904][149]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.19.50:904][149]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.19.50:904][149]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.19.50:905][149]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2024.01.18-13.19.50:905][149]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2024.01.18-13.19.50:907][149]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.01.18-13.19.50:907][149]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2024.01.18-13.19.50:907][149]LogInit: FAudioDevice initialized with ID 27.
+[2024.01.18-13.19.50:907][149]LogAudio: Display: Audio Device (ID: 27) registered with world 'LevelMrMat'.
+[2024.01.18-13.19.50:907][149]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.01.18-13.19.50:943][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.19.50:943][149]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.19.50:954][149]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.19.50
+[2024.01.18-13.19.50:955][149]LogWorld: Bringing up level for play took: 0.011476
+[2024.01.18-13.19.50:957][149]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2024.01.18-13.19.50:960][149]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.19.50:960][149]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.19.50:960][149]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.19.50:960][149]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.19.50:963][149]PIE: Server logged in
+[2024.01.18-13.19.50:965][149]PIE: Play in editor total start time 0,132 seconds.
+[2024.01.18-13.19.51:181][149]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.18-13.19.53:680][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.19.53:680][320]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.19.53:680][320]LogSlate: Window 'UE5Blueprint Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.18-13.19.53:683][320]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.19.53:685][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.19.53:687][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.19.53:692][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.19.53:708][320]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.01.18-13.19.53:708][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.01.18-13.19.53:710][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.01.18-13.19.53:720][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.18-13.19.53:787][321]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2024.01.18-13.19.55:006][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.19.55:006][454]PIE: New page: PIE session: LevelMrMat (18 janv. 2024 à 15:19:55)
+[2024.01.18-13.19.55:006][454]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.19.55:023][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016360s)
+[2024.01.18-13.19.55:023][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.016393s)
+[2024.01.18-13.19.55:037][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.18-13.19.55:041][454]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.19.55:041][454]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.19.55:041][454]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.19.55:041][454]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2024.01.18-13.19.55:041][454]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2024.01.18-13.19.55:041][454]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.19.55:041][454]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.19.55:041][454]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.19.55:041][454]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.19.55:042][454]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.19.55:042][454]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.19.55:042][454]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.19.55:042][454]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.19.55:042][454]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.19.55:042][454]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.19.55:042][454]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.19.55:044][454]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.19.55:073][454]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.19.55:073][454]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.19.55:073][454]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.19.55:073][454]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.19.55:073][454]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2024.01.18-13.19.55:073][454]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2024.01.18-13.19.55:076][454]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2024.01.18-13.19.55:076][454]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2024.01.18-13.19.55:076][454]LogInit: FAudioDevice initialized with ID 28.
+[2024.01.18-13.19.55:076][454]LogAudio: Display: Audio Device (ID: 28) registered with world 'LevelMrMat'.
+[2024.01.18-13.19.55:076][454]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2024.01.18-13.19.55:078][454]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.19.55:090][454]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.19.55
+[2024.01.18-13.19.55:090][454]LogWorld: Bringing up level for play took: 0.012282
+[2024.01.18-13.19.55:092][454]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2024.01.18-13.19.55:095][454]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.19.55:095][454]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.19.55:095][454]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.19.55:095][454]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.19.55:096][454]PIE: Server logged in
+[2024.01.18-13.19.55:097][454]PIE: Play in editor total start time 0,091 seconds.
+[2024.01.18-13.20.10:003][862]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.20.10:502][906]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.20.23:300][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.20.23:300][ 22]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.20.23:301][ 22]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.20.23:304][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.20.23:308][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.20.23:312][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.20.23:328][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.20.23:329][ 22]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2024.01.18-13.20.23:329][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.01.18-13.20.23:332][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.01.18-13.20.23:344][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.01.18-13.20.23:417][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2024.01.18-13.20.26:305][277]Cmd: DELETE
+[2024.01.18-13.20.26:306][277]Cmd: ACTOR DELETE
+[2024.01.18-13.20.26:310][277]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2024.01.18-13.20.26:331][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.01.18-13.20.26:335][277]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2024.01.18-13.20.30:456][590]Cmd: DELETE
+[2024.01.18-13.20.30:456][590]Cmd: ACTOR DELETE
+[2024.01.18-13.20.30:462][590]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2024.01.18-13.20.30:480][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.01.18-13.20.30:484][590]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2024.01.18-13.20.36:203][ 50]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.18-13.20.36:209][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.20.36:209][ 50]PIE: New page: PIE session: LevelMrMat (18 janv. 2024 à 15:20:36)
+[2024.01.18-13.20.36:239][ 50]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.20.36:254][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015066s)
+[2024.01.18-13.20.36:254][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015108s)
+[2024.01.18-13.20.36:269][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.18-13.20.36:271][ 50]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.20.36:271][ 50]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.20.36:271][ 50]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-13.20.36:272][ 50]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2024.01.18-13.20.36:272][ 50]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2024.01.18-13.20.36:272][ 50]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.20.36:272][ 50]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.20.36:272][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.20.36:272][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.20.36:272][ 50]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-13.20.36:272][ 50]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.20.36:272][ 50]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-13.20.36:272][ 50]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.20.36:272][ 50]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.20.36:272][ 50]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.20.36:272][ 50]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.20.36:274][ 50]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.20.36:304][ 50]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-13.20.36:304][ 50]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.20.36:304][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.20.36:305][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.20.36:305][ 50]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2024.01.18-13.20.36:305][ 50]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2024.01.18-13.20.36:307][ 50]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2024.01.18-13.20.36:307][ 50]LogInit: FAudioDevice initialized with ID 29.
+[2024.01.18-13.20.36:307][ 50]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2024.01.18-13.20.36:307][ 50]LogAudio: Display: Audio Device (ID: 29) registered with world 'LevelMrMat'.
+[2024.01.18-13.20.36:307][ 50]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2024.01.18-13.20.36:310][ 50]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-13.20.36:319][ 50]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-14.20.36
+[2024.01.18-13.20.36:319][ 50]LogWorld: Bringing up level for play took: 0.009773
+[2024.01.18-13.20.36:321][ 50]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2024.01.18-13.20.36:324][ 50]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-13.20.36:324][ 50]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.20.36:324][ 50]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.20.36:324][ 50]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.20.36:325][ 50]PIE: Server logged in
+[2024.01.18-13.20.36:325][ 50]PIE: Play in editor total start time 0,117 seconds.
+[2024.01.18-13.20.44:215][775]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.20.44:710][822]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.20.45:208][868]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.20.45:714][916]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-13.20.46:078][950]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.20.46:078][950]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.20.46:078][950]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-13.20.58:240][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.20.58:240][ 67]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-13.20.58:241][ 67]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.20.58:242][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.20.58:245][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.20.58:251][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.20.58:263][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.20.58:265][ 67]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2024.01.18-13.20.58:265][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.01.18-13.20.58:266][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.01.18-13.20.58:275][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.01.18-13.20.58:317][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2024.01.18-13.21.04:631][645]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.21.04:720][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.01.18-13.21.04:776][645]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-13.21.04:777][645]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMat883A56CE45F60901F275258D597A5518.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-13.21.04:784][645]LogFileHelpers: All files are already saved.
+[2024.01.18-13.21.04:784][645]LogFileHelpers: Saving map 'LevelMrMat' took 0.102
+[2024.01.18-13.21.04:788][645]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 3.25 sec)
+[2024.01.18-13.21.04:790][645]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-13.21.04:790][645]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
