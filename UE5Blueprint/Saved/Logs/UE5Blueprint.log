@@ -4082,3 +4082,11 @@ Make sure 'BP_Enemy_C' has been compiled for  End Hit
 [2024.01.18-22.00.28:502][950]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 653 ms)
 [2024.01.18-22.00.28:505][950]AssetCheck: New page: Asset Save: LevelMrMat
 [2024.01.18-22.00.28:505][950]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-22.02.12:584][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-22.02.12:677][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.01.18-22.02.12:735][ 40]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-22.02.12:736][ 40]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMatC7BB8F4840C6E0AA4326DEB113333E6D.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-22.02.12:744][ 40]LogFileHelpers: Saving map 'LevelMrMat' took 0.113
+[2024.01.18-22.02.12:750][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 820 ms)
+[2024.01.18-22.02.12:753][ 40]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-22.02.12:753][ 40]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
