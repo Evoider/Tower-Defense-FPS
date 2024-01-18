@@ -1342,3 +1342,1420 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.18-22.43.24:408][770]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms
 [2024.01.18-22.43.24:409][770]AssetCheck: New page: Asset Save: DT_WavePool
 [2024.01.18-22.43.24:409][770]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Game/Spawner/DT_WavePool.DT_WavePool
+[2024.01.18-22.43.49:148][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-22.43.49:148][809]PIE: New page: PIE session: LevelMrMat (19 janv. 2024 à 00:43:49)
+[2024.01.18-22.43.49:152][809]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.01.18-22.43.49:152][809]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.01.18-22.43.49:152][809]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-22.43.49:167][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015171s)
+[2024.01.18-22.43.49:167][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015218s)
+[2024.01.18-22.43.49:184][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.18-22.43.49:186][809]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.43.49:186][809]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-22.43.49:187][809]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-22.43.49:187][809]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2024.01.18-22.43.49:187][809]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.01.18-22.43.49:187][809]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-22.43.49:187][809]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-22.43.49:187][809]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-22.43.49:187][809]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-22.43.49:187][809]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-22.43.49:187][809]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-22.43.49:187][809]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-22.43.49:187][809]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-22.43.49:188][809]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-22.43.49:188][809]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-22.43.49:188][809]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-22.43.49:189][809]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-22.43.49:220][809]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-22.43.49:220][809]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-22.43.49:220][809]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-22.43.49:220][809]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-22.43.49:221][809]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.01.18-22.43.49:221][809]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.01.18-22.43.49:223][809]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.01.18-22.43.49:223][809]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.01.18-22.43.49:223][809]LogInit: FAudioDevice initialized with ID 2.
+[2024.01.18-22.43.49:223][809]LogAudio: Display: Audio Device (ID: 2) registered with world 'LevelMrMat'.
+[2024.01.18-22.43.49:223][809]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.18-22.43.49:226][809]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-22.43.49:235][809]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-23.43.49
+[2024.01.18-22.43.49:236][809]LogWorld: Bringing up level for play took: 0.010529
+[2024.01.18-22.43.49:239][809]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.01.18-22.43.49:245][809]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-22.43.49:245][809]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.43.49:245][809]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.43.49:245][809]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.43.49:246][809]PIE: Server logged in
+[2024.01.18-22.43.49:246][809]PIE: Play in editor total start time 0,098 seconds.
+[2024.01.18-22.44.00:648][740]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.01:144][777]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.01:649][823]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.02:149][868]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.02:645][902]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.05:643][162]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.06:148][204]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.06:647][247]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.07:149][289]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.08:150][372]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.08:648][414]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.09:143][456]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.14:467][908]LogShaderCompilers: Display: ================================================
+[2024.01.18-22.44.14:467][908]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.18-22.44.14:467][908]LogShaderCompilers: Display: Total job queries 339, among them cache hits 142 (41.89%)
+[2024.01.18-22.44.14:467][908]LogShaderCompilers: Display: Tracking 197 distinct input hashes that result in 138 distinct outputs (70.05%)
+[2024.01.18-22.44.14:468][908]LogShaderCompilers: Display: RAM used: 4,95 MiB of 1,60 GiB budget. Usage: 0.30%
+[2024.01.18-22.44.14:468][908]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.18-22.44.14:468][908]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.18-22.44.14:468][908]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.18-22.44.14:468][908]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.18-22.44.14:468][908]LogShaderCompilers: Display: ================================================
+[2024.01.18-22.44.17:149][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.17:645][171]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.18:154][212]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.18:651][252]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.19:148][293]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.19:149][293]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.19:646][334]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.20:153][375]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.20:649][416]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.21:156][459]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.21:644][498]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.22:152][538]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.22:647][577]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.23:152][619]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.23:652][662]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.25:144][788]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.25:648][828]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.26:155][869]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.26:651][908]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.27:149][947]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.27:648][986]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.28:150][ 26]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.29:655][152]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.30:145][195]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.30:649][239]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.30:650][239]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.31:144][281]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.31:145][281]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.31:648][322]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.31:648][322]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.32:152][361]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.32:153][361]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.34:649][558]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.35:146][599]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.35:648][639]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.36:154][681]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.36:647][722]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.37:153][766]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.37:651][809]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.37:773][819]LogConsoleManager: Warning: Console variable 'FX.AllowGPUSorting' used in the render thread. Rendering artifacts could happen. Use ECVF_RenderThreadSafe or don't use in render thread.
+[2024.01.18-22.44.40:644][ 52]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.41:152][ 92]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.41:654][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.41:655][131]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.42:149][170]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.42:150][170]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.42:647][209]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.42:648][209]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.43:151][251]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.43:152][251]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.43:644][292]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.43:644][292]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.44:145][334]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.44:146][334]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.44:644][377]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.44:645][377]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.45:147][419]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.45:148][419]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.45:654][460]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.46:152][499]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.46:643][538]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.47:151][580]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.47:655][626]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.48:142][673]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.44.52:742][ 85]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.44.52:742][ 85]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.44.52:742][ 85]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.45.24:147][792]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.24:650][837]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.25:147][879]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.25:646][922]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.27:646][ 90]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.28:154][132]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.28:648][174]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.29:149][217]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.30:645][342]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.31:143][385]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.31:144][385]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.31:655][429]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.31:657][429]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.32:149][471]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.36:143][826]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.36:646][868]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.37:144][910]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.47:646][803]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.48:155][843]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.48:156][843]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.48:653][882]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.49:149][920]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.49:650][959]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.50:143][998]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.56:645][535]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.58:146][660]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.58:649][700]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.59:152][741]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.45.59:651][781]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.07:148][437]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.07:644][481]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.08:144][526]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.10:645][750]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.11:153][793]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.11:647][834]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.17:327][333]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.46.17:327][333]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.46.17:327][333]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.46.25:746][ 68]LogCharacterMovement: BP_Skeleton_C_26 is stuck and failed to move! Velocity: X=-0.91 Y=149.79 Z=0.00 Location: X=3117.85 Y=2602.04 Z=1012.15 Normal: X=-0.99 Y=0.15 Z=0.00 PenetrationDepth:39.688 Actor:BP_Goblin_C_34 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2024.01.18-22.46.30:043][385]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.31:150][463]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.31:652][496]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.32:148][530]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.32:655][563]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.33:149][597]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.33:648][632]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.33:649][632]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.34:148][667]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.34:149][667]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.34:658][704]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.34:659][704]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.35:149][740]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.35:646][774]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.35:646][774]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.36:148][810]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.36:647][846]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.37:152][883]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.39:653][ 57]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.40:161][ 92]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.40:655][125]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.43:151][297]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.43:648][329]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.43:648][329]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.44:158][362]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.44:159][362]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.44:649][395]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.44:650][395]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.45:146][427]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.45:147][427]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.45:652][461]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.45:653][461]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.46:147][494]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.46:147][494]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.46:654][528]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.46:656][528]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.47:155][561]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.47:156][561]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.47:648][594]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.48:148][627]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.48:649][661]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.49:162][695]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.49:653][729]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.50:156][764]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.50:657][797]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.51:159][830]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.51:160][830]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.51:648][861]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.51:649][861]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.52:149][894]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.52:150][894]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.52:660][926]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.52:661][926]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.53:161][959]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.53:655][989]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.54:147][ 21]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.54:663][ 51]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.55:162][ 80]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.55:662][109]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.56:162][140]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.56:660][171]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.57:166][202]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.57:657][232]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.59:161][324]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.46.59:659][355]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.00:146][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.00:656][419]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.01:152][452]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.01:659][487]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.02:147][520]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.02:654][556]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.03:160][591]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.03:660][624]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.04:147][656]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.04:648][687]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.05:117][718]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.47.05:117][718]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.47.11:659][145]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.12:157][178]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.12:659][211]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.13:153][242]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.13:654][273]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.14:149][304]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.14:649][337]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.15:160][371]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.15:662][404]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.16:153][438]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.21:258][774]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.47.34:161][599]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.35:154][662]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.36:152][728]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.36:649][761]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.37:152][794]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.37:659][827]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.38:161][860]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.38:656][893]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.41:150][ 70]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.41:644][108]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.47.47:377][570]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.47.56:660][328]LogCharacterMovement: BP_Zombie_C_19 is stuck and failed to move! Velocity: X=1.32 Y=-40.95 Z=0.00 Location: X=3165.28 Y=2594.85 Z=1091.26 Normal: X=0.88 Y=-0.47 Z=0.00 PenetrationDepth:103.555 Actor:BP_Goblin_C_52 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2024.01.18-22.48.14:654][338]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.15:665][394]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.17:650][507]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.20:157][652]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.20:662][682]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.21:162][711]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.21:650][738]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.24:161][883]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.24:668][912]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.26:660][ 30]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.27:148][ 59]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.27:665][ 88]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.31:659][320]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.33:151][409]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.34:661][501]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.35:160][531]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.35:657][561]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.36:158][592]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.36:653][623]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.46:662][229]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.49:160][376]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.50:155][432]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.48.50:663][460]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.49.13:154][779]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.49.27:152][670]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.49.38:294][568]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.49.45:285][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-22.49.45:286][172]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-22.49.45:286][172]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-22.49.45:304][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-22.49.45:309][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-22.49.45:317][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-22.49.45:331][172]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-22.49.45:334][172]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.18-22.49.45:334][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.18-22.49.45:336][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.18-22.49.45:340][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-22.49.45:353][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.01.18-22.49.45:400][173]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.01.18-22.50.17:669][ 72]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.50.17:758][ 74]LogShaderCompilers: Display: ================================================
+[2024.01.18-22.50.17:758][ 74]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.18-22.50.17:758][ 74]LogShaderCompilers: Display: Total job queries 388, among them cache hits 176 (45.36%)
+[2024.01.18-22.50.17:758][ 74]LogShaderCompilers: Display: Tracking 212 distinct input hashes that result in 150 distinct outputs (70.75%)
+[2024.01.18-22.50.17:758][ 74]LogShaderCompilers: Display: RAM used: 5,43 MiB of 1,60 GiB budget. Usage: 0.33%
+[2024.01.18-22.50.17:758][ 74]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.18-22.50.17:758][ 74]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.18-22.50.17:758][ 74]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.18-22.50.17:758][ 74]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.18-22.50.17:758][ 74]LogShaderCompilers: Display: ================================================
+[2024.01.18-22.50.19:177][173]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.50.19:265][174]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.50.19:301][175]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.50.20:663][263]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Player/BP_ThrowingBomb.BP_ThrowingBomb
+[2024.01.18-22.50.20:663][263]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.50.20:663][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-22.51.24:979][751]BlueprintLog: New page: Compile BP_ThrowingBomb
+[2024.01.18-22.51.25:013][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.18-22.51.45:046][ 67]BlueprintLog: New page: Compile BP_ThrowingBomb
+[2024.01.18-22.51.45:080][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.01.18-22.51.46:586][183]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.18-22.51.46:594][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-22.51.46:594][183]PIE: New page: PIE session: LevelMrMat (19 janv. 2024 à 00:51:46)
+[2024.01.18-22.51.46:594][183]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-22.51.46:609][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015734s)
+[2024.01.18-22.51.46:609][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015767s)
+[2024.01.18-22.51.46:624][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.18-22.51.46:626][183]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.51.46:626][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-22.51.46:626][183]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-22.51.46:626][183]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2024.01.18-22.51.46:626][183]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.01.18-22.51.46:627][183]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-22.51.46:627][183]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-22.51.46:627][183]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-22.51.46:627][183]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-22.51.46:627][183]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-22.51.46:627][183]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-22.51.46:627][183]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-22.51.46:627][183]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-22.51.46:627][183]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-22.51.46:627][183]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-22.51.46:627][183]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-22.51.46:629][183]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-22.51.46:661][183]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-22.51.46:661][183]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-22.51.46:661][183]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-22.51.46:661][183]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-22.51.46:662][183]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.01.18-22.51.46:662][183]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.01.18-22.51.46:663][183]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.01.18-22.51.46:663][183]LogInit: FAudioDevice initialized with ID 3.
+[2024.01.18-22.51.46:663][183]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.01.18-22.51.46:663][183]LogAudio: Display: Audio Device (ID: 3) registered with world 'LevelMrMat'.
+[2024.01.18-22.51.46:663][183]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.18-22.51.46:666][183]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-22.51.46:675][183]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-23.51.46
+[2024.01.18-22.51.46:676][183]LogWorld: Bringing up level for play took: 0.009937
+[2024.01.18-22.51.46:678][183]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.01.18-22.51.46:681][183]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-22.51.46:681][183]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.51.46:681][183]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.51.46:681][183]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.51.46:682][183]PIE: Server logged in
+[2024.01.18-22.51.46:683][183]PIE: Play in editor total start time 0,09 seconds.
+[2024.01.18-22.51.58:093][162]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.13:100][444]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.13:609][489]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.14:108][531]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.14:595][573]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.15:594][660]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.16:100][705]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.30:102][914]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.30:596][957]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.31:090][  0]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.31:091][  0]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.31:592][ 43]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.31:593][ 43]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.32:091][ 86]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.32:092][ 86]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.32:603][129]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.32:604][129]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.33:090][171]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.33:091][171]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.52.37:854][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-22.52.37:855][587]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-22.52.37:855][587]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-22.52.37:859][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-22.52.37:862][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-22.52.37:867][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-22.52.37:886][587]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-22.52.37:886][587]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.18-22.52.37:886][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.18-22.52.37:888][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.18-22.52.37:891][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-22.52.37:899][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.01.18-22.52.37:939][588]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.01.18-22.52.47:690][594]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-22.52.47:807][594]LogSavePackage: Moving output files for package: /Game/Game/Player/BP_ThrowingBomb
+[2024.01.18-22.52.47:808][594]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_ThrowingBombC76DE94444C5BC82DFA24B9F8F27BCFD.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Player/BP_ThrowingBomb.uasset'
+[2024.01.18-22.52.47:815][594]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 182 ms)
+[2024.01.18-22.52.47:817][594]AssetCheck: New page: Asset Save: BP_ThrowingBomb
+[2024.01.18-22.52.47:817][594]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Player/BP_ThrowingBomb.BP_ThrowingBomb
+[2024.01.18-22.52.48:847][702]BlueprintLog: New page: Compile BP_ThrowingBomb
+[2024.01.18-22.52.48:882][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.18-22.52.51:581][927]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.18-22.52.51:589][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-22.52.51:589][927]PIE: New page: PIE session: LevelMrMat (19 janv. 2024 à 00:52:51)
+[2024.01.18-22.52.51:614][927]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-22.52.51:630][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015822s)
+[2024.01.18-22.52.51:630][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015863s)
+[2024.01.18-22.52.51:646][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.18-22.52.51:649][927]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.52.51:649][927]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-22.52.51:649][927]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-22.52.51:650][927]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2024.01.18-22.52.51:650][927]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.01.18-22.52.51:650][927]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-22.52.51:650][927]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-22.52.51:650][927]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-22.52.51:650][927]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-22.52.51:650][927]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-22.52.51:650][927]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-22.52.51:650][927]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-22.52.51:650][927]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-22.52.51:650][927]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-22.52.51:650][927]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-22.52.51:650][927]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-22.52.51:653][927]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-22.52.51:685][927]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-22.52.51:685][927]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-22.52.51:685][927]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-22.52.51:685][927]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-22.52.51:686][927]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.01.18-22.52.51:686][927]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.01.18-22.52.51:688][927]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.01.18-22.52.51:688][927]LogInit: FAudioDevice initialized with ID 4.
+[2024.01.18-22.52.51:688][927]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.01.18-22.52.51:688][927]LogAudio: Display: Audio Device (ID: 4) registered with world 'LevelMrMat'.
+[2024.01.18-22.52.51:688][927]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.01.18-22.52.51:690][927]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-22.52.51:698][927]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-23.52.51
+[2024.01.18-22.52.51:699][927]LogWorld: Bringing up level for play took: 0.008332
+[2024.01.18-22.52.51:701][927]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.01.18-22.52.51:705][927]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-22.52.51:706][927]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.52.51:706][927]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.52.51:706][927]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.52.51:706][927]PIE: Server logged in
+[2024.01.18-22.52.51:707][927]PIE: Play in editor total start time 0,118 seconds.
+[2024.01.18-22.52.56:954][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-22.52.56:955][375]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-22.52.56:955][375]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-22.52.56:958][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-22.52.56:961][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-22.52.56:968][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-22.52.56:982][375]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-22.52.56:982][375]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.01.18-22.52.56:982][375]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.01.18-22.52.56:984][375]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.01.18-22.52.56:989][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-22.52.56:994][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.18-22.52.57:036][376]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.01.18-22.53.02:155][901]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-22.53.02:273][901]LogSavePackage: Moving output files for package: /Game/Game/Player/BP_ThrowingBomb
+[2024.01.18-22.53.02:274][901]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_ThrowingBomb127B316E4B8C10461CB39EB80D8257E6.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Player/BP_ThrowingBomb.uasset'
+[2024.01.18-22.53.02:280][901]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 307 ms)
+[2024.01.18-22.53.02:282][901]AssetCheck: New page: Asset Save: BP_ThrowingBomb
+[2024.01.18-22.53.02:282][901]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Player/BP_ThrowingBomb.BP_ThrowingBomb
+[2024.01.18-22.53.03:245][ 10]BlueprintLog: New page: Compile BP_ThrowingBomb
+[2024.01.18-22.53.03:276][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.18-22.53.04:663][114]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.18-22.53.04:672][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-22.53.04:672][114]PIE: New page: PIE session: LevelMrMat (19 janv. 2024 à 00:53:04)
+[2024.01.18-22.53.04:672][114]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-22.53.04:687][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015550s)
+[2024.01.18-22.53.04:687][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.015587s)
+[2024.01.18-22.53.04:703][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.01.18-22.53.04:708][114]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.53.04:708][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-22.53.04:708][114]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-22.53.04:708][114]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2024.01.18-22.53.04:708][114]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.01.18-22.53.04:708][114]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-22.53.04:708][114]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-22.53.04:708][114]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-22.53.04:708][114]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-22.53.04:708][114]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-22.53.04:708][114]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-22.53.04:708][114]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-22.53.04:708][114]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-22.53.04:709][114]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-22.53.04:709][114]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-22.53.04:709][114]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-22.53.04:711][114]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-22.53.04:740][114]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-22.53.04:740][114]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-22.53.04:740][114]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-22.53.04:740][114]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-22.53.04:741][114]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.01.18-22.53.04:741][114]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.01.18-22.53.04:742][114]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.01.18-22.53.04:742][114]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.01.18-22.53.04:742][114]LogInit: FAudioDevice initialized with ID 5.
+[2024.01.18-22.53.04:742][114]LogAudio: Display: Audio Device (ID: 5) registered with world 'LevelMrMat'.
+[2024.01.18-22.53.04:742][114]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.01.18-22.53.04:745][114]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-22.53.04:753][114]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-23.53.04
+[2024.01.18-22.53.04:753][114]LogWorld: Bringing up level for play took: 0.008161
+[2024.01.18-22.53.04:756][114]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.01.18-22.53.04:759][114]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-22.53.04:759][114]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.53.04:759][114]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.53.04:759][114]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.53.04:760][114]PIE: Server logged in
+[2024.01.18-22.53.04:761][114]PIE: Play in editor total start time 0,089 seconds.
+[2024.01.18-22.53.14:675][965]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.53.15:168][  9]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.53.15:676][ 54]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.53.16:174][ 98]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.53.16:678][141]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.53.17:177][183]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.53.54:859][552]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.53.54:859][552]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.53.54:859][552]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.54.11:678][109]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.54.12:174][155]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.54.12:671][204]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.54.13:177][253]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.54.13:681][301]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.54.16:681][573]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.54.17:177][617]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.54.17:672][662]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.18-22.54.18:045][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-22.54.18:045][691]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-22.54.18:046][691]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-22.54.18:049][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-22.54.18:053][691]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-22.54.18:059][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-22.54.18:077][691]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-22.54.18:077][691]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.01.18-22.54.18:077][691]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.01.18-22.54.18:079][691]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.01.18-22.54.18:083][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-22.54.18:092][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.01.18-22.54.18:131][692]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.01.18-22.54.26:846][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-22.54.26:967][603]LogSavePackage: Moving output files for package: /Game/Game/Player/BP_ThrowingBomb
+[2024.01.18-22.54.26:968][603]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_ThrowingBombE31B24DF4B5D38658C7DCAB1FDB20FA6.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Player/BP_ThrowingBomb.uasset'
+[2024.01.18-22.54.26:975][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 436 ms)
+[2024.01.18-22.54.26:976][603]AssetCheck: New page: Asset Save: BP_ThrowingBomb
+[2024.01.18-22.54.26:976][603]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Player/BP_ThrowingBomb.BP_ThrowingBomb
+[2024.01.18-22.54.31:289][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-22.54.31:401][ 81]LogSavePackage: Moving output files for package: /Game/Game/Player/BP_ThrowingBomb
+[2024.01.18-22.54.31:402][ 81]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_ThrowingBombA42A655947640E6E4AF8819F80C5EE45.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Player/BP_ThrowingBomb.uasset'
+[2024.01.18-22.54.31:408][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 555 ms)
+[2024.01.18-22.54.31:409][ 81]AssetCheck: New page: Asset Save: BP_ThrowingBomb
+[2024.01.18-22.54.31:410][ 81]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Player/BP_ThrowingBomb.BP_ThrowingBomb
+[2024.01.18-22.55.14:199][941]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.01.18-22.55.14:199][941]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.01.18-22.55.33:326][123]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-22.55.33:365][123]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.55.33:458][123]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.55.33:493][123]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Lich/BP_Lich
+[2024.01.18-22.55.33:494][123]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_Lich464D217545B57D58E2868F89EC0D7BD5.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/BP_Lich.uasset'
+[2024.01.18-22.55.33:501][123]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 730 ms)
+[2024.01.18-22.55.33:503][123]AssetCheck: New page: Asset Save: BP_Lich
+[2024.01.18-22.55.33:503][123]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich
+[2024.01.18-22.55.38:017][629]BlueprintLog: New page: Compile BP_Lich
+[2024.01.18-22.55.38:119][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.01.18-22.55.45:015][377]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.01.18-22.55.57:692][634]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.55.57:702][634]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.57:702][634]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.57:702][634]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:076][661]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_1
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:076][661]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_1
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:076][661]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_1
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:094][662]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_2
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:094][662]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_2
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:094][662]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_2
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:105][663]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_3
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:105][663]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_3
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:105][663]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_3
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:118][664]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_4
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:118][664]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_4
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:118][664]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_4
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:131][665]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_5
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:131][665]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_5
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:131][665]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_5
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:145][666]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_6
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:145][666]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_6
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:145][666]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_6
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:181][667]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_7
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:181][667]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_7
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:181][667]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_7
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:196][668]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_8
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:196][668]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_8
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:196][668]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_8
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:214][669]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_9
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:214][669]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_9
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:214][669]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_9
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:231][670]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_10
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:231][670]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_10
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:231][670]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_10
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:250][671]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_11
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:250][671]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_11
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:250][671]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_11
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:361][679]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_12
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:362][679]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_12
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:362][679]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_12
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:427][680]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_13
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:427][680]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_13
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:427][680]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_13
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:436][681]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich
+[2024.01.18-22.55.58:436][681]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.55.58:436][681]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-22.55.58:459][681]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.55.58:459][681]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-22.55.58:491][681]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.18-22.55.58:492][681]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:492][681]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:492][681]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:730][681]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.55.58:730][681]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-22.55.58:844][681]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:844][681]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:845][681]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.58:857][681]LogViewport: Scene viewport resized to 421x584, mode Windowed.
+[2024.01.18-22.55.58:950][681]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.18-22.55.58:975][682]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.58:975][682]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.58:975][682]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.59:000][683]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.55.59:000][683]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.55.59:000][683]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.55.59:011][684]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.56.05:356][285]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2024.01.18-22.57.10:468][184]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_14
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.10:468][184]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_14
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.10:468][184]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_14
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.10:468][184]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_14
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.10:468][184]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_14
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.10:468][184]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_14
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.10:561][193]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_15
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.10:561][193]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_15
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.10:561][193]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_15
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.10:561][193]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_15
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.10:561][193]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_15
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.10:561][193]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_15
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.12:541][392]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_16
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.12:541][392]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_16
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.12:541][392]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_16
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.12:541][392]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_16
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.12:541][392]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_16
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.12:541][392]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_16
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.12:646][402]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_17
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.12:646][402]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_17
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.12:646][402]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_17
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.12:646][402]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_17
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.12:646][402]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_17
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.12:646][402]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_17
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.23:771][529]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_18
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.23:771][529]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_18
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.23:771][529]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_18
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.23:771][529]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_18
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.23:771][529]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_18
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.23:771][529]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_18
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.23:796][531]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_19
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.23:796][531]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_19
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.23:796][531]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_19
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.23:796][531]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_19
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.23:796][531]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_19
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.23:796][531]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_19
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.29:394][105]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_20
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.29:394][105]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_20
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.29:394][105]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_20
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.29:394][105]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_20
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.29:394][105]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_20
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.29:394][105]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_20
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.29:480][113]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_21
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.29:480][113]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_21
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.29:480][113]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_21
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.29:480][113]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_21
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.29:480][113]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_21
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.29:480][113]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_21
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.43:724][562]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_22
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.43:725][562]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_22
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.43:725][562]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_22
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.43:725][562]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_22
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.43:725][562]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_22
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.43:725][562]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_22
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.43:790][568]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_23
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.43:790][568]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_23
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.43:790][568]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_23
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.43:790][568]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_23
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.43:790][568]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_23
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.43:790][568]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_23
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.55:830][791]BlueprintLog: New page: Compile ABP_Lich
+[2024.01.18-22.57.55:870][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.01.18-22.57.55:893][791]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_24
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.55:893][791]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_24
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.55:893][791]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_24
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.57.55:971][793]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_25
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.57.55:971][793]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_25
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.57.55:971][793]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_25
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.58.06:918][915]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-22.58.06:956][915]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_26
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.58.06:956][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_26
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.58.06:956][915]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_26
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.58.06:991][915]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Lich/ABP_Lich
+[2024.01.18-22.58.06:992][915]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/ABP_LichC9C4025B4B51197FDB169ABCEC6BDE6F.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/ABP_Lich.uasset'
+[2024.01.18-22.58.06:999][915]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 811 ms)
+[2024.01.18-22.58.07:000][915]AssetCheck: New page: Asset Save: ABP_Lich
+[2024.01.18-22.58.07:000][915]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich
+[2024.01.18-22.58.07:025][917]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_27
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.58.07:025][917]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_27
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.58.07:025][917]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_27
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.59.04:441][428]BlueprintLog: New page: Compile BP_Lich
+[2024.01.18-22.59.04:542][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.18-22.59.04:690][428]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_28
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.59.04:690][428]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_28
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.59.04:690][428]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_28
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.59.04:841][430]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_29
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.59.04:841][430]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_29
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.59.04:841][430]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_29
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.59.05:338][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-22.59.05:461][484]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Lich/BP_Lich
+[2024.01.18-22.59.05:462][484]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_Lich9ADCDCA743FB774701249C8793645820.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/BP_Lich.uasset'
+[2024.01.18-22.59.05:467][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 940 ms)
+[2024.01.18-22.59.05:469][484]AssetCheck: New page: Asset Save: BP_Lich
+[2024.01.18-22.59.05:469][484]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich
+[2024.01.18-22.59.07:047][651]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_30
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.59.07:047][651]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_30
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.59.07:047][651]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_30
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.59.07:178][652]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_31
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.18-22.59.07:178][652]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_31
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.18-22.59.07:178][652]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_31
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.18-22.59.25:010][114]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.59.25:023][114]LogShaderCompilers: Display: ================================================
+[2024.01.18-22.59.25:023][114]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.18-22.59.25:023][114]LogShaderCompilers: Display: Total job queries 391, among them cache hits 177 (45.27%)
+[2024.01.18-22.59.25:023][114]LogShaderCompilers: Display: Tracking 214 distinct input hashes that result in 152 distinct outputs (71.03%)
+[2024.01.18-22.59.25:023][114]LogShaderCompilers: Display: RAM used: 5,47 MiB of 1,60 GiB budget. Usage: 0.33%
+[2024.01.18-22.59.25:023][114]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.18-22.59.25:023][114]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.18-22.59.25:023][114]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.18-22.59.25:023][114]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.18-22.59.25:023][114]LogShaderCompilers: Display: ================================================
+[2024.01.18-22.59.25:102][115]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.59.25:138][116]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.59.25:435][134]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.59.25:442][134]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_0
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.25:518][135]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.59.26:112][169]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_1
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:125][170]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_2
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:138][171]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_3
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:158][172]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_4
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:170][173]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_5
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:189][174]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_6
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:200][175]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_7
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:215][176]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_8
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:228][177]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_9
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:243][178]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_10
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:257][179]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_11
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:272][180]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_12
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:287][181]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_13
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:302][182]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_14
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:314][183]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_15
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:330][184]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_16
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:365][185]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_17
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:380][186]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_18
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:399][187]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_19
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:417][188]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_20
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:436][189]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_21
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:454][190]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_22
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:473][191]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_23
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:492][192]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_24
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:510][193]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_25
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:527][194]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_26
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:545][195]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_27
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:563][196]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_28
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:581][197]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_29
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:600][198]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_30
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:614][199]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_31
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:627][200]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_32
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:648][201]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_33
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:662][202]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_34
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:681][203]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_35
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:694][204]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_36
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:710][205]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_37
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:723][206]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_38
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:737][207]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_39
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:749][208]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_40
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:762][209]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_41
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:778][210]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_42
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:795][211]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_43
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:809][212]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_44
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:824][213]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_45
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:839][214]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_46
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:854][215]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_47
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:873][216]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_48
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:894][217]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_49
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:913][218]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_50
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:929][219]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_51
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:947][220]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_52
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:964][221]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_53
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.26:981][222]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_54
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.29:958][486]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_55
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.30:022][487]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_56
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:333][561]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_57
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:348][562]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_58
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:363][563]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_59
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:378][564]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_60
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:391][565]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_61
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:405][566]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_62
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:420][567]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_63
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:434][568]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_64
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:446][569]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_65
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:463][570]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_66
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:478][571]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_67
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:493][572]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_68
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:509][573]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_69
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:524][574]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_70
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:538][575]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_71
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:572][576]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_72
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:588][577]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_73
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:608][578]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_74
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:626][579]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_75
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:644][580]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_76
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:661][581]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_77
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:679][582]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_78
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:695][583]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_79
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:715][584]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_80
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:733][585]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_81
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:753][586]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_82
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:770][587]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_83
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:789][588]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_84
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:808][589]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_85
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:826][590]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_86
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:844][591]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_87
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.31:862][592]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_88
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.33:580][742]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_89
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.33:643][743]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_90
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.33:655][744]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_91
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.34:206][775]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Enemy/Zombie/BP_Zombie.BP_Zombie
+[2024.01.18-22.59.34:206][775]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.59.34:206][775]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-22.59.34:720][778]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.59.34:762][780]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_92
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.44:799][944]BlueprintLog: New page: Compile BP_Zombie
+[2024.01.18-22.59.44:912][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.01.18-22.59.47:034][106]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.18-22.59.47:042][106]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.18-22.59.47:044][106]LogPlayLevel: [PlayLevel] Compiling BP_ThrowingBomb before play...
+[2024.01.18-22.59.47:088][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.18-22.59.47:089][106]LogPlayLevel: PlayLevel: Blueprint regeneration took 47 ms (1 blueprints)
+[2024.01.18-22.59.47:090][106]PIE: New page: PIE session: LevelMrMat (19 janv. 2024 à 00:59:47)
+[2024.01.18-22.59.47:090][106]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-22.59.47:104][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014107s)
+[2024.01.18-22.59.47:104][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.014136s)
+[2024.01.18-22.59.47:119][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.01.18-22.59.47:121][106]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-22.59.47:121][106]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-22.59.47:121][106]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.18-22.59.47:122][106]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2024.01.18-22.59.47:122][106]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.01.18-22.59.47:122][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-22.59.47:122][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-22.59.47:122][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-22.59.47:122][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-22.59.47:122][106]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.18-22.59.47:122][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-22.59.47:122][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.18-22.59.47:122][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-22.59.47:122][106]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-22.59.47:122][106]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-22.59.47:122][106]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-22.59.47:124][106]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-22.59.47:156][106]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (FNATIC Esports Audio)
+[2024.01.18-22.59.47:157][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-22.59.47:157][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-22.59.47:157][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-22.59.47:158][106]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.01.18-22.59.47:158][106]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.01.18-22.59.47:159][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.01.18-22.59.47:159][106]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.01.18-22.59.47:159][106]LogInit: FAudioDevice initialized with ID 6.
+[2024.01.18-22.59.47:159][106]LogAudio: Display: Audio Device (ID: 6) registered with world 'LevelMrMat'.
+[2024.01.18-22.59.47:159][106]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.18-22.59.47:162][106]LogLoad: Game class is 'GM_Game_C'
+[2024.01.18-22.59.47:170][106]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.18-23.59.47
+[2024.01.18-22.59.47:171][106]LogWorld: Bringing up level for play took: 0.009327
+[2024.01.18-22.59.47:173][106]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.01.18-22.59.47:177][106]LogBlueprintUserMessages: [GM_Game_C_0] 1
+[2024.01.18-22.59.47:177][106]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.59.47:177][106]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.59.47:177][106]LogBlueprintUserMessages: [GM_Game_C_0] Hello
+[2024.01.18-22.59.47:177][106]PIE: Server logged in
+[2024.01.18-22.59.47:178][106]PIE: Play in editor total start time 0,136 seconds.
+[2024.01.18-22.59.48:507][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-22.59.48:507][208]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.18-22.59.48:508][208]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-22.59.48:509][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-22.59.48:512][208]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-22.59.48:517][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-22.59.48:532][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-22.59.48:533][208]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.18-22.59.48:533][208]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.18-22.59.48:536][208]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.18-22.59.48:543][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.01.18-22.59.48:584][209]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.01.18-22.59.48:655][211]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_93
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.48:698][213]LogScript: Warning: Accessed None trying to read property Zombie
+	BPA_Zombie_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_Zombie_C_94
+	Function /Game/Game/Enemy/Zombie/BPA_Zombie.BPA_Zombie_C:ExecuteUbergraph_BPA_Zombie:017F
+[2024.01.18-22.59.51:310][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-22.59.51:387][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.01.18-22.59.51:447][407]LogSavePackage: Moving output files for package: /Game/Game/Maps/LevelMrMat
+[2024.01.18-22.59.51:448][407]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/LevelMrMat0F729FC04CA07D8F3D8724914C3698F9.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap'
+[2024.01.18-22.59.51:457][407]LogFileHelpers: Saving map 'LevelMrMat' took 0.110
+[2024.01.18-22.59.51:462][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 1.09 sec)
+[2024.01.18-22.59.51:464][407]AssetCheck: New page: Asset Save: LevelMrMat
+[2024.01.18-22.59.51:464][407]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.18-22.59.55:127][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-22.59.55:161][795]LogSavePackage: Moving output files for package: /Game/Game/Spawner/DT_WavePool
+[2024.01.18-22.59.55:162][795]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/DT_WavePool3AD748AC402DEAF2F3FB2ABB88D14DEA.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Spawner/DT_WavePool.uasset'
+[2024.01.18-22.59.55:166][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 1.13 sec)
+[2024.01.18-22.59.55:168][795]AssetCheck: New page: Asset Save: DT_WavePool
+[2024.01.18-22.59.55:168][795]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Game/Spawner/DT_WavePool.DT_WavePool
+[2024.01.18-23.00.01:781][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-23.00.01:814][570]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-23.00.01:921][570]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Zombie/BP_Zombie
+[2024.01.18-23.00.01:922][570]LogSavePackage: Moving '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_ZombieD5B1FEC74DE27B980EF239A3F20EDC04.tmp' to '../../../../../Users/Matt/Documents/ASchool/GamingCampus/G.Tech3/UE Blueprint/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Zombie/BP_Zombie.uasset'
+[2024.01.18-23.00.01:928][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 1.27 sec)
+[2024.01.18-23.00.01:929][570]AssetCheck: New page: Asset Save: BP_Zombie
+[2024.01.18-23.00.01:929][570]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Enemy/Zombie/BP_Zombie.BP_Zombie
