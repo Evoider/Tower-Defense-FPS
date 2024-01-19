@@ -1804,3 +1804,933 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.19-00.44.33:642][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
 [2024.01.19-00.44.33:655][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
 [2024.01.19-00.44.33:674][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 596 ms)
+[2024.01.19-00.45.01:788][949]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.45.01:850][950]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.45.01:857][950]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.01:857][950]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.01:857][950]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.03:834][ 74]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Lich/BP_Lich.BP_Lich_C
+[2024.01.19-00.45.03:834][ 74]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Lich/BP_Lich.BP_Lich_C
+[2024.01.19-00.45.03:837][ 74]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich as actor: BP_Lich_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_0
+[2024.01.19-00.45.03:839][ 74]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich as actor: BP_Lich_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_0
+[2024.01.19-00.45.04:026][ 89]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Lich/BP_Lich.BP_Lich_C
+[2024.01.19-00.45.04:027][ 89]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Lich/BP_Lich.BP_Lich_C
+[2024.01.19-00.45.04:030][ 89]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich as actor: BP_Lich_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_UAID_02506E62841FE7D001_1594584469
+[2024.01.19-00.45.04:032][ 89]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich as actor: BP_Lich_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_UAID_02506E62841FE7D001_1594584469
+[2024.01.19-00.45.05:286][190]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.19-00.45.05:291][190]LogContentBundle: [Matthieu_TestMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.19-00.45.05:291][190]LogWorldPartition: Display: GenerateStreaming for 'Matthieu_TestMap' started...
+[2024.01.19-00.45.05:293][190]LogWorldPartition: Display: GenerateStreaming for 'Matthieu_TestMap' took 2 ms (total: 11 ms)
+[2024.01.19-00.45.05:294][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.19-00.45.05:294][190]PIE: New page: SIE session: Matthieu_TestMap (19 janv. 2024 à 02:45:05)
+[2024.01.19-00.45.05:294][190]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap
+[2024.01.19-00.45.05:300][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006238s)
+[2024.01.19-00.45.05:300][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap to /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap (0.006266s)
+[2024.01.19-00.45.05:314][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.19-00.45.05:318][190]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.45.05:318][190]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.45.05:318][190]LogAIModule: Creating AISystem for world Matthieu_TestMap
+[2024.01.19-00.45.05:319][190]LogWorldPartition: ULevel::OnLevelLoaded(Matthieu_TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.19-00.45.05:319][190]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.19-00.45.05:319][190]LogWorldPartition: UWorldPartition::Initialize : World = Matthieu_TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.19-00.45.05:319][190]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.19-00.45.05:320][190]LogContentBundle: [Matthieu_TestMap(Standalone)] Creating new contrainer.
+[2024.01.19-00.45.05:320][190]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 303 ms)
+[2024.01.19-00.45.05:320][190]LogPlayLevel: PIE: World Init took: (0.002462s)
+[2024.01.19-00.45.05:320][190]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.01.19-00.45.05:320][190]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.19-00.45.05:320][190]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.19-00.45.05:320][190]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.19-00.45.05:320][190]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.19-00.45.05:320][190]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.19-00.45.05:320][190]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.19-00.45.05:320][190]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.19-00.45.05:320][190]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.19-00.45.05:321][190]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.19-00.45.05:321][190]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.19-00.45.05:321][190]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.19-00.45.05:322][190]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.19-00.45.05:355][190]LogAudioMixer: Display: Using Audio Hardware Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2024.01.19-00.45.05:355][190]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.19-00.45.05:355][190]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.19-00.45.05:355][190]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.19-00.45.05:356][190]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.01.19-00.45.05:356][190]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.01.19-00.45.05:357][190]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.01.19-00.45.05:357][190]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.01.19-00.45.05:357][190]LogInit: FAudioDevice initialized with ID 6.
+[2024.01.19-00.45.05:357][190]LogAudio: Display: Audio Device (ID: 6) registered with world 'Matthieu_TestMap'.
+[2024.01.19-00.45.05:357][190]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.19-00.45.05:359][190]LogLoad: Game class is 'GM_Game_C'
+[2024.01.19-00.45.05:363][190]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap up for play (max tick rate 0) at 2024.01.19-01.45.05
+[2024.01.19-00.45.05:364][190]LogWorld: Bringing up level for play took: 0.004066
+[2024.01.19-00.45.05:365][190]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.01.19-00.45.05:366][190]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.01.19-00.45.05:366][190]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FD5D001_1540835300
+[2024.01.19-00.45.05:366][190]LogScript: Warning: Script Msg: BP_Tower_C_UAID_02506E62841FD5D001_1540835300 TryShoot SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.01.19-00.45.05:366][190]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FD5D001_1540835300
+[2024.01.19-00.45.05:368][190]PIE: Server logged in
+[2024.01.19-00.45.05:368][190]PIE: Play in editor total start time 0,077 seconds.
+[2024.01.19-00.45.08:191][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.45.08:191][441]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap
+[2024.01.19-00.45.08:192][441]LogWorld: UWorld::CleanupWorld for Matthieu_TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.45.08:192][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.45.08:192][441]LogContentBundle: [Matthieu_TestMap(Standalone)] Deleting container.
+[2024.01.19-00.45.08:195][441]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.19-00.45.08:200][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.45.08:214][441]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.19-00.45.08:214][441]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.19-00.45.08:214][441]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.19-00.45.08:215][441]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.19-00.45.08:219][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.45.08:222][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.01.19-00.45.08:320][442]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.01.19-00.45.08:858][477]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich
+[2024.01.19-00.45.08:859][477]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.45.08:859][477]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.45.09:135][479]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.45.09:152][480]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.45.12:024][804]LogViewport: Scene viewport resized to 1529x979, mode Windowed.
+[2024.01.19-00.45.21:379][777]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.45.21:428][777]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.45.21:521][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Enemy/Lich/BP_Lich" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/BP_Lich.uasset" SILENT=true
+[2024.01.19-00.45.21:534][777]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Lich/BP_Lich
+[2024.01.19-00.45.21:535][777]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_LichC6D65D9A44E442AC9B9604BBE1035EBE.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/BP_Lich.uasset'
+[2024.01.19-00.45.21:547][777]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 764 ms)
+[2024.01.19-00.45.21:548][777]AssetCheck: New page: Asset Save: BP_Lich
+[2024.01.19-00.45.21:548][777]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich
+[2024.01.19-00.45.25:785][214]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_1
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:785][214]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_1
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:785][214]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_1
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:793][215]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_2
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:793][215]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_2
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:793][215]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_2
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:801][216]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_3
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:801][216]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_3
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:801][216]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_3
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:809][217]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_4
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:809][217]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_4
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:809][217]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_4
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:817][218]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_5
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:818][218]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_5
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:818][218]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_5
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:826][219]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_6
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:826][219]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_6
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:826][219]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_6
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:834][220]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_7
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:834][220]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_7
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:834][220]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_7
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:842][221]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_8
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:843][221]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_8
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:843][221]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_8
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:851][222]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_9
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:851][222]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_9
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:851][222]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_9
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:859][223]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_10
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:859][223]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_10
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:859][223]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_10
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:867][224]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_11
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:868][224]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_11
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:868][224]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_11
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:876][225]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_12
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:876][225]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_12
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:876][225]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_12
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:884][226]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_13
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:884][226]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_13
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:884][226]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_13
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:892][227]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_14
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:893][227]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_14
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:893][227]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_14
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:901][228]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_15
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:901][228]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_15
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:901][228]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_15
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:909][229]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_16
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:909][229]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_16
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:909][229]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_16
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:917][230]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_17
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:918][230]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_17
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:918][230]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_17
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:926][231]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_18
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:926][231]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_18
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:926][231]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_18
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:934][232]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_19
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:934][232]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_19
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:934][232]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_19
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:942][233]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_20
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:942][233]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_20
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:942][233]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_20
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:951][234]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_21
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:951][234]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_21
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:951][234]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_21
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:959][235]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_22
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:959][235]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_22
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:959][235]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_22
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:967][236]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_23
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:967][236]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_23
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:967][236]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_23
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:976][237]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_24
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:976][237]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_24
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:976][237]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_24
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:984][238]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_25
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:984][238]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_25
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:984][238]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_25
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.25:992][239]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_26
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.25:992][239]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_26
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.25:992][239]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_26
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:001][240]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_27
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:001][240]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_27
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:001][240]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_27
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:022][241]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_28
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:022][241]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_28
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:022][241]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_28
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:034][242]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_29
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:034][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_29
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:034][242]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_29
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:048][243]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_30
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:048][243]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_30
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:048][243]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_30
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:062][244]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_31
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:062][244]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_31
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:062][244]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_31
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:075][245]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_32
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:076][245]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_32
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:076][245]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_32
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:089][246]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_33
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:089][246]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_33
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:089][246]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_33
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:103][247]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_34
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:103][247]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_34
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:103][247]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_34
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:117][248]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_35
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:117][248]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_35
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:117][248]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_35
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:131][249]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_36
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:131][249]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_36
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:131][249]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_36
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:228][256]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_37
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:228][256]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_37
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:228][256]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_37
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:268][257]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_38
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:268][257]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_38
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:268][257]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_38
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:275][258]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich
+[2024.01.19-00.45.26:276][258]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.45.26:276][258]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.45.26:292][258]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.45.26:292][258]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.45.26:299][258]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-00.45.26:299][258]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:299][258]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:299][258]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:531][258]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.45.26:531][258]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.45.26:629][258]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:629][258]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:629][258]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:635][258]LogViewport: Scene viewport resized to 589x591, mode Windowed.
+[2024.01.19-00.45.26:683][258]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-00.45.26:701][259]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:701][259]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:701][259]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:717][260]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.26:717][260]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.26:717][260]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.26:725][261]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Lich_C_0
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.49:448][555]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_39
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.49:448][555]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_39
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.49:448][555]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_39
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.49:448][555]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_39
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.49:448][555]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_39
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.49:448][555]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_39
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.51:062][729]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-00.45.51:844][781]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_40
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.51:844][781]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_40
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.51:844][781]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_40
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.51:844][781]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_40
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.51:844][781]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_40
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.51:844][781]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_40
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.54:486][  0]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_41
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.54:486][  0]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_41
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.54:486][  0]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_41
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.54:486][  0]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_41
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.54:486][  0]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_41
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.54:486][  0]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_41
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.56:124][112]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_42
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.56:124][112]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_42
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.56:124][112]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_42
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.56:124][112]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_42
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.56:124][112]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_42
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.56:124][112]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_42
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.57:040][179]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_43
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.57:040][179]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_43
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.57:040][179]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_43
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.57:040][179]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_43
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.57:040][179]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_43
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.57:040][179]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_43
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.57:566][235]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_44
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.57:566][235]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_44
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.57:566][235]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_44
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.57:566][235]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_44
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.57:566][235]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_44
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.57:566][235]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_44
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.58:610][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.45.58:646][339]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_45
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.58:646][339]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_45
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.58:646][339]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_45
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.58:646][339]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_45
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.58:646][339]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_45
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.58:646][339]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_45
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.45.58:658][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Enemy/Lich/ABP_Lich" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/ABP_Lich.uasset" SILENT=true
+[2024.01.19-00.45.58:679][339]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Lich/ABP_Lich
+[2024.01.19-00.45.58:680][339]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/ABP_Lich6EEB910E4CE8DD668F3C9B8E6BB9ACBB.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/ABP_Lich.uasset'
+[2024.01.19-00.45.58:691][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 846 ms)
+[2024.01.19-00.45.58:693][339]AssetCheck: New page: Asset Save: ABP_Lich
+[2024.01.19-00.45.58:693][339]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich
+[2024.01.19-00.45.59:039][377]BlueprintLog: New page: Compile ABP_Lich
+[2024.01.19-00.45.59:081][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.01.19-00.45.59:092][377]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_46
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.45.59:092][377]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_46
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.45.59:092][377]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_46
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.46.17:135][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.46.17:199][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Enemy/Lich/BP_Lich" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/BP_Lich.uasset" SILENT=true
+[2024.01.19-00.46.17:211][ 33]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Lich/BP_Lich
+[2024.01.19-00.46.17:212][ 33]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_Lich143841154C574E9580578DA88978B049.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/BP_Lich.uasset'
+[2024.01.19-00.46.17:223][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 935 ms)
+[2024.01.19-00.46.17:224][ 33]AssetCheck: New page: Asset Save: BP_Lich
+[2024.01.19-00.46.17:224][ 33]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich
+[2024.01.19-00.46.17:705][ 89]BlueprintLog: New page: Compile BP_Lich
+[2024.01.19-00.46.17:804][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.19-00.46.17:843][ 89]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_47
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.46.17:843][ 89]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_47
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.46.17:843][ 89]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_47
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.46.33:404][608]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.19-00.46.33:410][608]LogContentBundle: [Matthieu_TestMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.19-00.46.33:410][608]LogWorldPartition: Display: GenerateStreaming for 'Matthieu_TestMap' started...
+[2024.01.19-00.46.33:412][608]LogWorldPartition: Display: GenerateStreaming for 'Matthieu_TestMap' took 2 ms (total: 14 ms)
+[2024.01.19-00.46.33:412][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.19-00.46.33:412][608]PIE: New page: SIE session: Matthieu_TestMap (19 janv. 2024 à 02:46:33)
+[2024.01.19-00.46.33:412][608]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap
+[2024.01.19-00.46.33:419][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007100s)
+[2024.01.19-00.46.33:419][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap to /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap (0.007131s)
+[2024.01.19-00.46.33:434][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.19-00.46.33:436][608]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.46.33:436][608]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.46.33:437][608]LogAIModule: Creating AISystem for world Matthieu_TestMap
+[2024.01.19-00.46.33:437][608]LogWorldPartition: ULevel::OnLevelLoaded(Matthieu_TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.19-00.46.33:437][608]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.19-00.46.33:437][608]LogWorldPartition: UWorldPartition::Initialize : World = Matthieu_TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.19-00.46.33:437][608]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.19-00.46.33:439][608]LogContentBundle: [Matthieu_TestMap(Standalone)] Creating new contrainer.
+[2024.01.19-00.46.33:439][608]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 305 ms)
+[2024.01.19-00.46.33:439][608]LogPlayLevel: PIE: World Init took: (0.002601s)
+[2024.01.19-00.46.33:439][608]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.01.19-00.46.33:439][608]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.19-00.46.33:439][608]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.19-00.46.33:439][608]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.19-00.46.33:439][608]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.19-00.46.33:439][608]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.19-00.46.33:439][608]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.19-00.46.33:439][608]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.19-00.46.33:439][608]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.19-00.46.33:439][608]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.19-00.46.33:439][608]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.19-00.46.33:439][608]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.19-00.46.33:441][608]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.19-00.46.33:472][608]LogAudioMixer: Display: Using Audio Hardware Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2024.01.19-00.46.33:473][608]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.19-00.46.33:473][608]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.19-00.46.33:473][608]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.19-00.46.33:473][608]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.01.19-00.46.33:473][608]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.01.19-00.46.33:475][608]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.01.19-00.46.33:475][608]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.01.19-00.46.33:475][608]LogInit: FAudioDevice initialized with ID 7.
+[2024.01.19-00.46.33:475][608]LogAudio: Display: Audio Device (ID: 7) registered with world 'Matthieu_TestMap'.
+[2024.01.19-00.46.33:475][608]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.19-00.46.33:477][608]LogLoad: Game class is 'GM_Game_C'
+[2024.01.19-00.46.33:480][608]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap up for play (max tick rate 0) at 2024.01.19-01.46.33
+[2024.01.19-00.46.33:481][608]LogWorld: Bringing up level for play took: 0.003861
+[2024.01.19-00.46.33:483][608]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2024.01.19-00.46.33:484][608]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.01.19-00.46.33:484][608]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FD5D001_1540835300
+[2024.01.19-00.46.33:484][608]LogScript: Warning: Script Msg: BP_Tower_C_UAID_02506E62841FD5D001_1540835300 TryShoot SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.01.19-00.46.33:484][608]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FD5D001_1540835300
+[2024.01.19-00.46.33:485][608]PIE: Server logged in
+[2024.01.19-00.46.33:486][608]PIE: Play in editor total start time 0,076 seconds.
+[2024.01.19-00.46.38:552][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.46.38:552][ 76]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap
+[2024.01.19-00.46.38:552][ 76]LogWorld: UWorld::CleanupWorld for Matthieu_TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.46.38:553][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.46.38:553][ 76]LogContentBundle: [Matthieu_TestMap(Standalone)] Deleting container.
+[2024.01.19-00.46.38:559][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.19-00.46.38:564][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.46.38:578][ 76]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.19-00.46.38:578][ 76]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.19-00.46.38:578][ 76]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.19-00.46.38:580][ 76]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.19-00.46.38:583][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.46.38:588][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.01.19-00.46.38:693][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2024.01.19-00.46.41:566][284]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.01.19-00.46.41:571][284]LogContentBundle: [Matthieu_TestMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.19-00.46.41:571][284]LogWorldPartition: Display: GenerateStreaming for 'Matthieu_TestMap' started...
+[2024.01.19-00.46.41:573][284]LogWorldPartition: Display: GenerateStreaming for 'Matthieu_TestMap' took 2 ms (total: 16 ms)
+[2024.01.19-00.46.41:573][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.19-00.46.41:573][284]PIE: New page: SIE session: Matthieu_TestMap (19 janv. 2024 à 02:46:41)
+[2024.01.19-00.46.41:600][284]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap
+[2024.01.19-00.46.41:606][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006036s)
+[2024.01.19-00.46.41:606][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap to /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap (0.006073s)
+[2024.01.19-00.46.41:620][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.19-00.46.41:623][284]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.46.41:623][284]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.46.41:623][284]LogAIModule: Creating AISystem for world Matthieu_TestMap
+[2024.01.19-00.46.41:624][284]LogWorldPartition: ULevel::OnLevelLoaded(Matthieu_TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.19-00.46.41:624][284]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.19-00.46.41:624][284]LogWorldPartition: UWorldPartition::Initialize : World = Matthieu_TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.19-00.46.41:624][284]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.19-00.46.41:625][284]LogContentBundle: [Matthieu_TestMap(Standalone)] Creating new contrainer.
+[2024.01.19-00.46.41:625][284]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 306 ms)
+[2024.01.19-00.46.41:625][284]LogPlayLevel: PIE: World Init took: (0.002459s)
+[2024.01.19-00.46.41:625][284]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.01.19-00.46.41:625][284]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.19-00.46.41:625][284]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.19-00.46.41:625][284]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.19-00.46.41:625][284]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.19-00.46.41:625][284]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.19-00.46.41:625][284]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.19-00.46.41:625][284]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.19-00.46.41:625][284]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.19-00.46.41:626][284]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.19-00.46.41:626][284]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.19-00.46.41:626][284]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.19-00.46.41:627][284]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.19-00.46.41:659][284]LogAudioMixer: Display: Using Audio Hardware Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2024.01.19-00.46.41:660][284]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.19-00.46.41:660][284]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.19-00.46.41:660][284]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.19-00.46.41:661][284]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.01.19-00.46.41:661][284]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.01.19-00.46.41:662][284]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.01.19-00.46.41:662][284]LogInit: FAudioDevice initialized with ID 8.
+[2024.01.19-00.46.41:662][284]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.01.19-00.46.41:662][284]LogAudio: Display: Audio Device (ID: 8) registered with world 'Matthieu_TestMap'.
+[2024.01.19-00.46.41:662][284]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.19-00.46.41:664][284]LogLoad: Game class is 'GM_Game_C'
+[2024.01.19-00.46.41:668][284]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap up for play (max tick rate 0) at 2024.01.19-01.46.41
+[2024.01.19-00.46.41:668][284]LogWorld: Bringing up level for play took: 0.003840
+[2024.01.19-00.46.41:670][284]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2024.01.19-00.46.41:671][284]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.01.19-00.46.41:671][284]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FDACF01_1551313119
+[2024.01.19-00.46.41:671][284]LogScript: Warning: Script Msg: BP_Tower_C_UAID_02506E62841FDACF01_1551313119 TryShoot SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.01.19-00.46.41:671][284]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FDACF01_1551313119
+[2024.01.19-00.46.41:671][284]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.01.19-00.46.41:671][284]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FD5D001_1540835300
+[2024.01.19-00.46.41:671][284]LogScript: Warning: Script Msg: BP_Tower_C_UAID_02506E62841FD5D001_1540835300 TryShoot SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.01.19-00.46.41:671][284]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FD5D001_1540835300
+[2024.01.19-00.46.41:672][284]PIE: Server logged in
+[2024.01.19-00.46.41:673][284]PIE: Play in editor total start time 0,102 seconds.
+[2024.01.19-00.46.54:577][586]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2024.01.19-00.46.54:577][586]LogScript: Warning: Script Msg called by: BP_Lich_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_UAID_02506E62841FE7D001_1594584469
+[2024.01.19-00.46.55:572][687]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2024.01.19-00.46.55:572][687]LogScript: Warning: Script Msg called by: BP_Lich_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_UAID_02506E62841FE7D001_1594584469
+[2024.01.19-00.46.56:510][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.46.56:510][760]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap
+[2024.01.19-00.46.56:511][760]LogWorld: UWorld::CleanupWorld for Matthieu_TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.46.56:512][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.46.56:512][760]LogContentBundle: [Matthieu_TestMap(Standalone)] Deleting container.
+[2024.01.19-00.46.56:516][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.19-00.46.56:521][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.46.56:534][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.46.56:534][760]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.19-00.46.56:535][760]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.19-00.46.56:536][760]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.19-00.46.56:542][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.19-00.46.56:608][763]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2024.01.19-00.47.09:413][ 55]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.47.09:413][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.47.09:426][ 55]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.47.09:426][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.47.09:470][ 55]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.47.09:470][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.47.11:334][244]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.47.11:334][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.47.12:008][306]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.19-00.47.12:008][306]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.47.12:008][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.47.12:606][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.19-00.47.12:606][357]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.47.12:606][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.47.12:905][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.19-00.47.12:906][376]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.47.12:906][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.47.14:583][512]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_48
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.47.14:583][512]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_48
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.47.14:583][512]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_48
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.47.14:594][513]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_49
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.47.14:594][513]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_49
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.47.14:594][513]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_49
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.47.14:606][514]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_50
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.47.14:606][514]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_50
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.47.14:606][514]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_50
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.47.14:617][515]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_51
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.47.14:617][515]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_51
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.47.14:617][515]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_51
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.47.14:629][516]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_52
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.47.14:629][516]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_52
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.47.14:629][516]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_52
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.47.14:640][517]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_53
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.47.14:640][517]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_53
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.47.14:640][517]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_53
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.47.14:653][518]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_54
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.47.14:653][518]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_54
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.47.14:653][518]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_54
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.47.14:666][519]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_55
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.47.14:666][519]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_55
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.47.14:666][519]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_55
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.47.20:770][145]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.47.20:838][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.01.19-00.47.20:869][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.01.19-00.47.20:882][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.01.19-00.47.20:885][145]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/Matthieu_TestMap/2/X0/KWXD267ESZEBX0J4F8NUB2
+[2024.01.19-00.47.20:886][145]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/KWXD267ESZEBX0J4F8NUB2F838D5A244AD285472279299A3D46CB2.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/Matthieu_TestMap/2/X0/KWXD267ESZEBX0J4F8NUB2.uasset'
+[2024.01.19-00.47.20:889][145]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/Matthieu_TestMap/5/XX/RAIQDG0NEBBGYYSAGHHO3P
+[2024.01.19-00.47.20:889][145]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/RAIQDG0NEBBGYYSAGHHO3P39557B464961CF63FA9563A1D0B07B05.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/Matthieu_TestMap/5/XX/RAIQDG0NEBBGYYSAGHHO3P.uasset'
+[2024.01.19-00.47.20:909][145]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 1.07 sec)
+[2024.01.19-00.47.20:910][145]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.19-00.47.20:910][145]LogContentValidation: Display: Validating /Game/Game/Tower/BP_Tower.BP_Tower_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FDACF01_1551313119
+[2024.01.19-00.47.20:910][145]LogContentValidation: Display: Validating /Game/Game/Enemy/Lich/BP_Lich.BP_Lich_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_UAID_02506E62841FE7D001_1594584469
+[2024.01.19-00.47.21:267][173]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_56
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.47.21:267][173]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_56
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.47.21:267][173]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_56
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.47.26:506][639]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Game/Spawner/DT_WavePool.DT_WavePool
+[2024.01.19-00.48.27:826][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.48.27:861][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Spawner/DT_WavePool" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Spawner/DT_WavePool.uasset" SILENT=true
+[2024.01.19-00.48.27:862][228]LogSavePackage: Moving output files for package: /Game/Game/Spawner/DT_WavePool
+[2024.01.19-00.48.27:862][228]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/DT_WavePool643436C44DC298A6072D1B98FDA5F2C2.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Spawner/DT_WavePool.uasset'
+[2024.01.19-00.48.27:883][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 1.13 sec)
+[2024.01.19-00.48.27:884][228]AssetCheck: New page: Asset Save: DT_WavePool
+[2024.01.19-00.48.27:884][228]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Game/Spawner/DT_WavePool.DT_WavePool
+[2024.01.19-00.49.35:457][940]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.49.35:494][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Spawner/DT_WavePool" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Spawner/DT_WavePool.uasset" SILENT=true
+[2024.01.19-00.49.35:495][940]LogSavePackage: Moving output files for package: /Game/Game/Spawner/DT_WavePool
+[2024.01.19-00.49.35:495][940]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/DT_WavePool1C80D51A42ED4D7B46FAA9AC1F067052.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Spawner/DT_WavePool.uasset'
+[2024.01.19-00.49.35:516][940]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.19 sec)
+[2024.01.19-00.49.35:516][940]AssetCheck: New page: Asset Save: DT_WavePool
+[2024.01.19-00.49.35:516][940]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Game/Spawner/DT_WavePool.DT_WavePool
+[2024.01.19-00.49.36:629][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.49.36:678][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Spawner/DT_WavePool" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Spawner/DT_WavePool.uasset" SILENT=true
+[2024.01.19-00.49.36:679][ 62]LogSavePackage: Moving output files for package: /Game/Game/Spawner/DT_WavePool
+[2024.01.19-00.49.36:680][ 62]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/DT_WavePoolD8184ACD4801987EBD098FA6D5A21C71.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Spawner/DT_WavePool.uasset'
+[2024.01.19-00.49.36:701][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 1.26 sec)
+[2024.01.19-00.49.36:701][ 62]AssetCheck: New page: Asset Save: DT_WavePool
+[2024.01.19-00.49.36:702][ 62]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Game/Spawner/DT_WavePool.DT_WavePool
