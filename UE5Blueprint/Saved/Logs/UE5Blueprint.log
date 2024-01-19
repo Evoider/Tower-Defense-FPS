@@ -2734,3 +2734,902 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.19-00.49.36:701][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 1.26 sec)
 [2024.01.19-00.49.36:701][ 62]AssetCheck: New page: Asset Save: DT_WavePool
 [2024.01.19-00.49.36:702][ 62]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Game/Spawner/DT_WavePool.DT_WavePool
+[2024.01.19-00.50.14:201][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.19-00.50.14:363][624]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.50.14:368][624]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.19-00.50.14:368][624]Cmd: MAP LOAD FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.19-00.50.14:368][624]LightingResults: New page: Lighting Build
+[2024.01.19-00.50.14:368][624]LoadErrors: New page: Loading map: LevelMrMat.umap
+[2024.01.19-00.50.14:391][624]LogWorld: UWorld::CleanupWorld for Matthieu_TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.50.14:391][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.50.14:392][624]LogContentBundle: [Matthieu_TestMap(Standalone)] Deleting container.
+[2024.01.19-00.50.14:392][624]MapCheck: New page: Map Check
+[2024.01.19-00.50.14:392][624]LightingResults: New page: Lighting Build
+[2024.01.19-00.50.14:405][624]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.19-00.50.14:410][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.19-00.50.14:419][624]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.50.14:419][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.50.14:437][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.19-00.50.14:449][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.19-00.50.14:467][624]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelMrMat'.
+[2024.01.19-00.50.14:467][624]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.50.14:468][624]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.50.14:468][624]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.19-00.50.14:504][624]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.19-00.50.14:524][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.19-00.50.14:528][624]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.19-00.50.14:528][624]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,077ms to complete.
+[2024.01.19-00.50.14:571][624]LogShaderCompilers: Display: ================================================
+[2024.01.19-00.50.14:571][624]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.19-00.50.14:571][624]LogShaderCompilers: Display: Total job queries 239, among them cache hits 90 (37.66%)
+[2024.01.19-00.50.14:571][624]LogShaderCompilers: Display: Tracking 149 distinct input hashes that result in 93 distinct outputs (62.42%)
+[2024.01.19-00.50.14:571][624]LogShaderCompilers: Display: RAM used: 3,84 MiB of 1,60 GiB budget. Usage: 0.23%
+[2024.01.19-00.50.14:571][624]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.19-00.50.14:571][624]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.19-00.50.14:571][624]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.19-00.50.14:571][624]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.19-00.50.14:571][624]LogShaderCompilers: Display: ================================================
+[2024.01.19-00.50.14:684][625]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.19-00.50.14:737][626]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_57
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.50.14:737][626]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_57
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.50.14:737][626]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_57
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.50.16:742][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.19-00.50.16:742][766]PIE: New page: PIE session: LevelMrMat (19 janv. 2024 à 02:50:16)
+[2024.01.19-00.50.16:742][766]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.19-00.50.16:756][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014175s)
+[2024.01.19-00.50.16:756][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.014200s)
+[2024.01.19-00.50.16:770][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.19-00.50.16:772][766]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.50.16:772][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.50.16:773][766]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.19-00.50.16:773][766]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2024.01.19-00.50.16:773][766]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.01.19-00.50.16:773][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.19-00.50.16:773][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.19-00.50.16:773][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.19-00.50.16:773][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.19-00.50.16:773][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.19-00.50.16:773][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.19-00.50.16:773][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.19-00.50.16:773][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.19-00.50.16:773][766]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.19-00.50.16:774][766]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.19-00.50.16:774][766]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.19-00.50.16:775][766]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.19-00.50.16:807][766]LogAudioMixer: Display: Using Audio Hardware Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2024.01.19-00.50.16:808][766]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.19-00.50.16:808][766]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.19-00.50.16:808][766]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.19-00.50.16:808][766]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.01.19-00.50.16:808][766]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.01.19-00.50.16:809][766]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.01.19-00.50.16:809][766]LogInit: FAudioDevice initialized with ID 9.
+[2024.01.19-00.50.16:809][766]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.01.19-00.50.16:809][766]LogAudio: Display: Audio Device (ID: 9) registered with world 'LevelMrMat'.
+[2024.01.19-00.50.16:810][766]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.19-00.50.16:812][766]LogLoad: Game class is 'GM_Game_C'
+[2024.01.19-00.50.16:819][766]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.19-01.50.16
+[2024.01.19-00.50.16:820][766]LogWorld: Bringing up level for play took: 0.007742
+[2024.01.19-00.50.16:821][766]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.01.19-00.50.16:825][766]PIE: Server logged in
+[2024.01.19-00.50.16:825][766]PIE: Play in editor total start time 0,084 seconds.
+[2024.01.19-00.50.17:776][833]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_58
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.50.17:776][833]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_58
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.50.17:776][833]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_58
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.50.20:002][ 25]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_59
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.50.20:002][ 25]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_59
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.50.20:002][ 25]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_59
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.50.20:275][ 44]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_60
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.50.20:275][ 44]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_60
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.50.20:275][ 44]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_60
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.50.25:216][461]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.25:718][505]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.35:721][375]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.36:217][419]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.36:715][464]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.37:218][509]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.44:713][156]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.45:216][197]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.45:714][238]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.47:212][367]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.47:725][410]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.55:714][100]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.50.56:219][145]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.00:213][497]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.00:720][542]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.01:216][584]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.01:714][627]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.02:214][668]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.02:713][709]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.03:220][750]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.03:713][790]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.04:212][831]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.04:713][873]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.05:214][915]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.05:715][956]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.32:117][185]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_61
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.51.32:117][185]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_61
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.51.32:117][185]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_61
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.51.33:950][328]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_62
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.51.33:950][328]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_62
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.51.33:950][328]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_62
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.51.34:807][395]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.34:851][399]Cmd: LevelEditor.ToggleImmersive
+[2024.01.19-00.51.34:878][399]LogViewport: Scene viewport resized to 1003x407, mode Windowed.
+[2024.01.19-00.51.34:909][399]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.19-00.51.34:909][399]LogViewport: Scene viewport resized to 1003x407, mode Windowed.
+[2024.01.19-00.51.34:959][399]LogViewport: Scene viewport resized to 1003x406, mode Windowed.
+[2024.01.19-00.51.35:007][399]LogViewport: Scene viewport resized to 2278x1102, mode Windowed.
+[2024.01.19-00.51.35:125][400]LogViewport: Scene viewport resized to 2560x1400, mode Windowed.
+[2024.01.19-00.51.35:334][401]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.35:812][420]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.36:312][449]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.36:813][479]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.37:303][507]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.37:816][537]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.38:305][566]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.38:800][596]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.39:302][627]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.39:802][660]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.40:310][694]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.40:800][727]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.41:312][759]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.41:800][789]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.42:310][822]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.42:806][855]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.43:304][887]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.43:809][918]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.44:303][948]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.44:802][979]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.45:308][ 11]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.45:809][ 42]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.46:310][ 73]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.46:808][103]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.47:300][135]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.47:811][168]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.48:304][199]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.48:813][232]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.49:303][266]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.49:809][299]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.50:313][332]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.50:803][363]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.51:310][394]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.51:808][425]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.52:299][455]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.52:805][485]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.53:305][514]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.53:815][543]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.54:299][570]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.54:804][600]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.55:300][629]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.55:800][657]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.56:309][688]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.56:801][717]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.57:306][749]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.57:798][781]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.58:301][814]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.58:801][847]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.59:310][881]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.51.59:808][914]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.52.00:311][947]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.52.00:800][979]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.52.03:561][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.52.03:561][145]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.19-00.52.03:562][145]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.52.03:568][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.52.03:575][145]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.19-00.52.03:581][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.52.03:592][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.52.03:593][145]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.19-00.52.03:593][145]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.19-00.52.03:594][145]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.19-00.52.03:609][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.01.19-00.52.03:640][146]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.01.19-00.52.04:792][232]LogViewport: Scene viewport resized to 2163x980, mode Windowed.
+[2024.01.19-00.52.04:872][233]LogViewport: Scene viewport resized to 2016x824, mode Windowed.
+[2024.01.19-00.52.04:940][234]LogViewport: Scene viewport resized to 2011x818, mode Windowed.
+[2024.01.19-00.52.08:770][529]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul
+[2024.01.19-00.52.08:770][529]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.52.08:770][529]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.52.09:799][613]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.10:805][721]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.11:805][841]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.12:802][921]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.13:806][999]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.14:806][119]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.15:803][224]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.16:103][260]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.21:079][389]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.21:770][472]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.22:772][592]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.23:332][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.52.23:363][659]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.52.23:475][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Enemy/Ghoul/BP_Ghoul" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Ghoul/BP_Ghoul.uasset" SILENT=true
+[2024.01.19-00.52.23:481][659]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Ghoul/BP_Ghoul
+[2024.01.19-00.52.23:482][659]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_Ghoul86B51E1341E7C4F236CCCA9A66CE3E48.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Ghoul/BP_Ghoul.uasset'
+[2024.01.19-00.52.23:495][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 1.42 sec)
+[2024.01.19-00.52.23:495][659]AssetCheck: New page: Asset Save: BP_Ghoul
+[2024.01.19-00.52.23:495][659]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul
+[2024.01.19-00.52.23:771][692]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.24:780][791]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.25:050][817]BlueprintLog: New page: Compile BP_Ghoul
+[2024.01.19-00.52.25:104][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.19-00.52.26:115][876]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Ghoul_C /Engine/Transient.World_40:PersistentLevel.BP_Ghoul_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-00.52.29:543][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.19-00.52.29:590][131]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.52.29:590][131]LogWorldPartition: ULevel::OnLevelLoaded(Matthieu_TestMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.19-00.52.29:591][131]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.19-00.52.29:591][131]LogWorldPartition: UWorldPartition::Initialize : World = Matthieu_TestMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.19-00.52.29:641][131]LogContentBundle: [Matthieu_TestMap(Standalone)] Creating new contrainer.
+[2024.01.19-00.52.29:641][131]LogWorldPartition: Display: WorldPartition initialize took 50 ms (total: 357 ms)
+[2024.01.19-00.52.29:647][131]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap
+[2024.01.19-00.52.29:647][131]Cmd: MAP LOAD FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/FirstPerson/Maps/Matthieu_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.19-00.52.29:647][131]LightingResults: New page: Lighting Build
+[2024.01.19-00.52.29:647][131]LoadErrors: New page: Loading map: Matthieu_TestMap.umap
+[2024.01.19-00.52.29:670][131]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.52.29:670][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.52.29:671][131]MapCheck: New page: Map Check
+[2024.01.19-00.52.29:671][131]LightingResults: New page: Lighting Build
+[2024.01.19-00.52.29:685][131]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.19-00.52.29:690][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.19-00.52.29:692][131]LogWorld: UWorld::CleanupWorld for Matthieu_TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.52.29:693][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.52.29:693][131]LogContentBundle: [Matthieu_TestMap(Standalone)] Deleting container.
+[2024.01.19-00.52.29:707][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.19-00.52.29:717][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.19-00.52.29:727][131]LogAudio: Display: Audio Device (ID: 1) registered with world 'Matthieu_TestMap'.
+[2024.01.19-00.52.29:727][131]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.52.29:727][131]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.52.29:728][131]LogAIModule: Creating AISystem for world Matthieu_TestMap
+[2024.01.19-00.52.29:728][131]LogWorldPartition: ULevel::OnLevelLoaded(Matthieu_TestMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.19-00.52.29:728][131]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.19-00.52.29:728][131]LogWorldPartition: UWorldPartition::Initialize : World = Matthieu_TestMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.19-00.52.29:777][131]LogContentBundle: [Matthieu_TestMap(Standalone)] Creating new contrainer.
+[2024.01.19-00.52.29:777][131]LogWorldPartition: Display: WorldPartition initialize took 49 ms (total: 406 ms)
+[2024.01.19-00.52.29:811][131]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.19-00.52.29:811][131]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (48, 6 bits) vs calculated maxtiles (128, 7 bits)
+[2024.01.19-00.52.29:828][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.19-00.52.29:833][131]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.19-00.52.29:833][131]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,218ms to complete.
+[2024.01.19-00.52.31:875][290]Cmd: DELETE
+[2024.01.19-00.52.31:875][290]Cmd: ACTOR DELETE
+[2024.01.19-00.52.31:877][290]LogEditorActor: Deleted Actor: BP_Lich_C
+[2024.01.19-00.52.31:893][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.19-00.52.31:896][290]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2024.01.19-00.52.36:366][661]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul_C
+[2024.01.19-00.52.36:366][661]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul_C
+[2024.01.19-00.52.36:368][661]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul as actor: BP_Ghoul_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Ghoul_C_0
+[2024.01.19-00.52.36:369][661]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul as actor: BP_Ghoul_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Ghoul_C_0
+[2024.01.19-00.52.36:849][703]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul_C
+[2024.01.19-00.52.36:849][703]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul_C
+[2024.01.19-00.52.36:852][703]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul as actor: BP_Ghoul_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Ghoul_C_UAID_02506E62841FE7D001_2047407470
+[2024.01.19-00.52.36:853][703]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul as actor: BP_Ghoul_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Ghoul_C_UAID_02506E62841FE7D001_2047407470
+[2024.01.19-00.52.37:992][797]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.19-00.52.37:998][797]LogContentBundle: [Matthieu_TestMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.19-00.52.37:998][797]LogWorldPartition: Display: GenerateStreaming for 'Matthieu_TestMap' started...
+[2024.01.19-00.52.38:000][797]LogWorldPartition: Display: GenerateStreaming for 'Matthieu_TestMap' took 1 ms (total: 18 ms)
+[2024.01.19-00.52.38:004][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.19-00.52.38:004][797]PIE: New page: PIE session: Matthieu_TestMap (19 janv. 2024 à 02:52:38)
+[2024.01.19-00.52.38:004][797]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap
+[2024.01.19-00.52.38:010][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005983s)
+[2024.01.19-00.52.38:010][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap to /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap (0.006006s)
+[2024.01.19-00.52.38:024][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.19-00.52.38:030][797]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.52.38:030][797]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.52.38:030][797]LogAIModule: Creating AISystem for world Matthieu_TestMap
+[2024.01.19-00.52.38:031][797]LogWorldPartition: ULevel::OnLevelLoaded(Matthieu_TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.19-00.52.38:031][797]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.19-00.52.38:031][797]LogWorldPartition: UWorldPartition::Initialize : World = Matthieu_TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.19-00.52.38:031][797]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.19-00.52.38:032][797]LogContentBundle: [Matthieu_TestMap(Standalone)] Creating new contrainer.
+[2024.01.19-00.52.38:032][797]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 408 ms)
+[2024.01.19-00.52.38:032][797]LogPlayLevel: PIE: World Init took: (0.002474s)
+[2024.01.19-00.52.38:032][797]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.01.19-00.52.38:032][797]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.19-00.52.38:032][797]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.19-00.52.38:032][797]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.19-00.52.38:032][797]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.19-00.52.38:032][797]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.19-00.52.38:032][797]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.19-00.52.38:032][797]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.19-00.52.38:032][797]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.19-00.52.38:032][797]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.19-00.52.38:032][797]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.19-00.52.38:032][797]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.19-00.52.38:034][797]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.19-00.52.38:067][797]LogAudioMixer: Display: Using Audio Hardware Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2024.01.19-00.52.38:067][797]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.19-00.52.38:067][797]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.19-00.52.38:067][797]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.19-00.52.38:068][797]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.01.19-00.52.38:068][797]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.01.19-00.52.38:069][797]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.01.19-00.52.38:069][797]LogInit: FAudioDevice initialized with ID 10.
+[2024.01.19-00.52.38:069][797]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.01.19-00.52.38:069][797]LogAudio: Display: Audio Device (ID: 10) registered with world 'Matthieu_TestMap'.
+[2024.01.19-00.52.38:069][797]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.01.19-00.52.38:071][797]LogLoad: Game class is 'GM_Game_C'
+[2024.01.19-00.52.38:074][797]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap up for play (max tick rate 0) at 2024.01.19-01.52.38
+[2024.01.19-00.52.38:075][797]LogWorld: Bringing up level for play took: 0.003344
+[2024.01.19-00.52.38:076][797]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2024.01.19-00.52.38:078][797]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.01.19-00.52.38:078][797]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FDACF01_1551313119
+[2024.01.19-00.52.38:078][797]LogScript: Warning: Script Msg: BP_Tower_C_UAID_02506E62841FDACF01_1551313119 TryShoot SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.01.19-00.52.38:078][797]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FDACF01_1551313119
+[2024.01.19-00.52.38:078][797]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.01.19-00.52.38:078][797]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FD5D001_1540835300
+[2024.01.19-00.52.38:078][797]LogScript: Warning: Script Msg: BP_Tower_C_UAID_02506E62841FD5D001_1540835300 TryShoot SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.01.19-00.52.38:078][797]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FD5D001_1540835300
+[2024.01.19-00.52.38:080][797]PIE: Server logged in
+[2024.01.19-00.52.38:081][797]PIE: Play in editor total start time 0,083 seconds.
+[2024.01.19-00.52.42:460][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.52.42:460][210]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap
+[2024.01.19-00.52.42:461][210]LogWorld: UWorld::CleanupWorld for Matthieu_TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.52.42:461][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.52.42:461][210]LogContentBundle: [Matthieu_TestMap(Standalone)] Deleting container.
+[2024.01.19-00.52.42:466][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.19-00.52.42:470][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.52.42:483][210]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.19-00.52.42:484][210]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.01.19-00.52.42:484][210]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.01.19-00.52.42:485][210]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.01.19-00.52.42:489][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.52.42:492][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.01.19-00.52.42:588][211]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2024.01.19-00.53.07:595][422]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.53.07:721][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Enemy/Ghoul/BP_Ghoul" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Ghoul/BP_Ghoul.uasset" SILENT=true
+[2024.01.19-00.53.07:728][422]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Ghoul/BP_Ghoul
+[2024.01.19-00.53.07:729][422]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_GhoulC1EB1757458F76E45B16C2B055C7AFAC.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Ghoul/BP_Ghoul.uasset'
+[2024.01.19-00.53.07:741][422]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 1.57 sec)
+[2024.01.19-00.53.07:742][422]AssetCheck: New page: Asset Save: BP_Ghoul
+[2024.01.19-00.53.07:742][422]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Enemy/Ghoul/BP_Ghoul.BP_Ghoul
+[2024.01.19-00.53.08:528][510]BlueprintLog: New page: Compile BP_Ghoul
+[2024.01.19-00.53.08:667][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.19-00.53.13:821][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.19-00.53.15:815][899]LogSlate: Window 'Save Content' being destroyed
+[2024.01.19-00.53.15:835][899]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.53.15:894][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.01.19-00.53.15:906][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.01.19-00.53.15:919][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.01.19-00.53.15:922][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/Matthieu_TestMap/5/CZ/4IJTPPF3CZO2IXLTECB8UX
+[2024.01.19-00.53.15:922][899]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/4IJTPPF3CZO2IXLTECB8UXF925F7CE4267A985B3B19AAA374E3781.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/__ExternalActors__/FirstPerson/Maps/Matthieu_TestMap/5/CZ/4IJTPPF3CZO2IXLTECB8UX.uasset'
+[2024.01.19-00.53.15:935][899]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 1.67 sec)
+[2024.01.19-00.53.15:980][899]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.53.15:989][899]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Game/Maps/LevelMrMat.LevelMrMat
+[2024.01.19-00.53.15:989][899]Cmd: MAP LOAD FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Maps/LevelMrMat.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.19-00.53.15:989][899]LightingResults: New page: Lighting Build
+[2024.01.19-00.53.15:989][899]LoadErrors: New page: Loading map: LevelMrMat.umap
+[2024.01.19-00.53.16:010][899]LogWorld: UWorld::CleanupWorld for Matthieu_TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.53.16:010][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.53.16:011][899]LogContentBundle: [Matthieu_TestMap(Standalone)] Deleting container.
+[2024.01.19-00.53.16:011][899]MapCheck: New page: Map Check
+[2024.01.19-00.53.16:011][899]LightingResults: New page: Lighting Build
+[2024.01.19-00.53.16:024][899]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.19-00.53.16:029][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.01.19-00.53.16:031][899]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.53.16:032][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.53.16:048][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.01.19-00.53.16:061][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.19-00.53.16:079][899]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelMrMat'.
+[2024.01.19-00.53.16:079][899]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.53.16:079][899]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.53.16:079][899]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.19-00.53.16:114][899]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.19-00.53.16:133][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.19-00.53.16:137][899]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.19-00.53.16:137][899]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,072ms to complete.
+[2024.01.19-00.53.16:157][899]AssetCheck: New page: Asset Save: BP_Ghoul_C_UAID_02506E62841FE7D001_2047407470
+[2024.01.19-00.53.17:117][950]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.19-00.53.17:123][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.19-00.53.17:123][950]PIE: New page: PIE session: LevelMrMat (19 janv. 2024 à 02:53:17)
+[2024.01.19-00.53.17:123][950]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.19-00.53.17:138][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014769s)
+[2024.01.19-00.53.17:138][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/LevelMrMat.LevelMrMat to /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat (0.014796s)
+[2024.01.19-00.53.17:151][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.19-00.53.17:153][950]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.53.17:153][950]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.53.17:153][950]LogAIModule: Creating AISystem for world LevelMrMat
+[2024.01.19-00.53.17:154][950]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2024.01.19-00.53.17:154][950]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.01.19-00.53.17:154][950]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.19-00.53.17:154][950]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.19-00.53.17:154][950]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.19-00.53.17:154][950]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.19-00.53.17:154][950]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.19-00.53.17:154][950]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.19-00.53.17:154][950]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.19-00.53.17:154][950]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.19-00.53.17:154][950]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.19-00.53.17:154][950]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.19-00.53.17:154][950]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.19-00.53.17:156][950]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.19-00.53.17:187][950]LogAudioMixer: Display: Using Audio Hardware Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2024.01.19-00.53.17:188][950]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.19-00.53.17:188][950]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.19-00.53.17:188][950]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.19-00.53.17:188][950]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.01.19-00.53.17:188][950]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.01.19-00.53.17:190][950]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.01.19-00.53.17:190][950]LogInit: FAudioDevice initialized with ID 11.
+[2024.01.19-00.53.17:190][950]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.01.19-00.53.17:190][950]LogAudio: Display: Audio Device (ID: 11) registered with world 'LevelMrMat'.
+[2024.01.19-00.53.17:190][950]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.01.19-00.53.17:191][950]LogLoad: Game class is 'GM_Game_C'
+[2024.01.19-00.53.17:199][950]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_LevelMrMat.LevelMrMat up for play (max tick rate 0) at 2024.01.19-01.53.17
+[2024.01.19-00.53.17:200][950]LogWorld: Bringing up level for play took: 0.007875
+[2024.01.19-00.53.17:201][950]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2024.01.19-00.53.17:205][950]PIE: Server logged in
+[2024.01.19-00.53.17:205][950]PIE: Play in editor total start time 0,083 seconds.
+[2024.01.19-00.53.42:127][ 46]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.53.45:129][291]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.53.45:631][333]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.53.46:130][374]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.53.46:632][413]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.53.52:628][910]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.53.53:131][951]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.53.58:135][379]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.43:134][225]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.43:628][265]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.44:125][305]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.44:626][345]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.45:126][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.45:627][428]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.48:130][639]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.48:630][682]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.49:127][726]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.49:631][768]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.54.50:127][810]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.06:124][132]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.06:630][175]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.07:135][217]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.11:132][569]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.12:132][659]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.12:631][703]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.13:131][746]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.13:132][746]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.13:632][791]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.13:633][791]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.14:126][835]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.14:627][879]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.15:125][923]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.16:131][  9]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.16:628][ 52]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.17:129][ 95]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.17:630][138]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.27:125][979]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.27:627][ 22]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.28:121][ 67]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.34:629][654]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.47:634][810]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.48:131][854]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.48:634][896]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.49:126][937]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.49:632][980]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.50:134][ 22]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.50:623][ 65]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.51:132][109]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.51:630][153]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.52:133][195]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: ================================================
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Total job queries 258, among them cache hits 100 (38.76%)
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Tracking 158 distinct input hashes that result in 101 distinct outputs (63.92%)
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: RAM used: 4,13 MiB of 1,60 GiB budget. Usage: 0.25%
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Time job spent in pending queue: average 0.01 s, longest 0.01 s
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Job execution time: average 0.47 s, max 0.52 s
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Job life time (pending + execution): average 0.48 s, max 0.53
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Shader code size: average 59,746 KiB, min 59,543 KiB, max 59,949 KiB
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.53 s
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Average processing rate: 3.75 jobs/sec
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Total thread time: 0,461 s
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Total thread preprocess time: 0,052 s
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Percentage time preprocessing: 11.28%
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Effective parallelization: 0.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.23 sec, max 0.24 sec, min 0.22 sec)
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 100.00% of total time (compiled    2 times, average 0.23 sec, max 0.24 sec, min 0.22 sec)
+[2024.01.19-00.55.56:460][564]LogShaderCompilers: Display: ================================================
+[2024.01.19-00.55.58:632][748]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.59:132][792]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.55.59:630][835]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.00:126][876]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.00:629][919]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.00:629][919]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.01:133][963]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.01:630][  7]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.02:135][ 52]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.02:635][ 95]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.02:636][ 95]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.03:128][137]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.03:129][137]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.03:627][178]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.04:130][220]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.56.23:439][784]LogCharacterMovement: BP_Zombie_C_11 is stuck and failed to move! Velocity: X=29.53 Y=-90.29 Z=0.00 Location: X=4628.32 Y=-308.69 Z=1009.96 Normal: X=0.45 Y=0.37 Z=-0.81 PenetrationDepth:38.547 Actor:BP_FirstPersonProjectile_C_391 Component:CollisionComponent BoneName:None (0 other events since notify)
+[2024.01.19-00.57.51:121][  6]LogCharacterMovement: BP_Zombie_C_21 is stuck and failed to move! Velocity: X=6.39 Y=94.79 Z=0.00 Location: X=5876.09 Y=-1437.25 Z=1591.26 Normal: X=0.38 Y=-0.92 Z=-0.00 PenetrationDepth:13.994 Actor:BP_FirstPersonProjectile_C_630 Component:CollisionComponent BoneName:None (0 other events since notify)
+[2024.01.19-00.58.39:628][963]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.58.40:128][  9]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.58.40:631][ 56]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.58.53:440][223]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.01.19-00.59.17:311][438]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.19-00.59.17:311][438]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.19-00.59.19:523][644]LogNet: Browse: /Game/Game/Maps/MainMenuMap
+[2024.01.19-00.59.19:523][644]LogLoad: LoadMap: /Game/Game/Maps/MainMenuMap
+[2024.01.19-00.59.19:523][644]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_LevelMrMat
+[2024.01.19-00.59.19:525][644]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.59.19:541][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.59.19:557][644]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.19-00.59.19:564][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.01.19-00.59.19:588][644]LogLinker: Warning: [AssetLog] D:\Projets\Dev\GTech3-UE5-Blueprint\UE5Blueprint\Content\Game\Maps\MainMenuMap.umap: Failed to load '/Game/Game/Maps/MainMenuMap_BuiltData': Can't find file.
+[2024.01.19-00.59.19:588][644]LogLinker: Warning: [AssetLog] D:\Projets\Dev\GTech3-UE5-Blueprint\UE5Blueprint\Content\Game\Maps\MainMenuMap.umap: VerifyImport: Failed to load package for import object 'Package /Game/Game/Maps/MainMenuMap_BuiltData'
+[2024.01.19-00.59.19:633][644]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainMenuMap'.
+[2024.01.19-00.59.19:634][644]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.59.19:634][644]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.59.19:634][644]LogAIModule: Creating AISystem for world MainMenuMap
+[2024.01.19-00.59.19:634][644]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2024.01.19-00.59.19:634][644]LogLoad: Game class is 'GM_MenuGameMode_C'
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_16m_Platform.Pl_16m_Platform being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_Crate_02.Pl_Crate_02 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Beanstalks/Pl_Leaf_01.Pl_Leaf_01 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_1m_grassblock.Pl_1m_grassblock being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_2m_grassblock.Pl_2m_grassblock being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_Crate_Shards_02.Pl_Crate_Shards_02 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Beanstalks/Pl_Leaf_05.Pl_Leaf_05 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Beanstalks/Pl_StoneBlock_01.Pl_StoneBlock_01 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Beanstalks/Pl_StoneBlock_03.Pl_StoneBlock_03 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Beanstalks/Pl_vine_03.Pl_vine_03 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_Fern_01.Pl_Fern_01 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_GrassWall_4m.Pl_GrassWall_4m being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_gtrim_01.Pl_gtrim_01 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_gtrim_04.Pl_gtrim_04 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_plant_01.Pl_plant_01 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_plant_02.Pl_plant_02 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_Screw_01.Pl_Screw_01 being ready before playing
+[2024.01.19-00.59.19:640][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Platformer/Meshes/Pl_Scaffoldpost_01.Pl_Scaffoldpost_01 being ready before playing
+[2024.01.19-00.59.19:647][644]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2024.01.19-01.59.19
+[2024.01.19-00.59.19:648][644]LogWorld: Bringing up level for play took: 0.006430
+[2024.01.19-00.59.19:650][644]LogLoad: Took 0.127097 seconds to LoadMap(/Game/Game/Maps/MainMenuMap)
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: ================================================
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Total job queries 263, among them cache hits 101 (38.40%)
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Tracking 162 distinct input hashes that result in 103 distinct outputs (63.58%)
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: RAM used: 4,22 MiB of 1,60 GiB budget. Usage: 0.26%
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Time job spent in pending queue: average 0.01 s, longest 0.01 s
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Job execution time: average 0.47 s, max 0.52 s
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Job life time (pending + execution): average 0.48 s, max 0.53
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Shader code size: average 59,746 KiB, min 59,543 KiB, max 59,949 KiB
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.53 s
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Average processing rate: 3.75 jobs/sec
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Total thread time: 0,461 s
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Total thread preprocess time: 0,052 s
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Percentage time preprocessing: 11.28%
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Effective parallelization: 0.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.23 sec, max 0.24 sec, min 0.22 sec)
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 100.00% of total time (compiled    2 times, average 0.23 sec, max 0.24 sec, min 0.22 sec)
+[2024.01.19-00.59.19:675][645]LogShaderCompilers: Display: ================================================
+[2024.01.19-00.59.19:865][648]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_63
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.59.19:865][648]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_63
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.59.19:865][648]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_63
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.59.20:740][722]Cmd: quit
+[2024.01.19-00.59.20:740][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.59.20:740][722]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_MainMenuMap
+[2024.01.19-00.59.20:770][722]LogWorld: UWorld::CleanupWorld for MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.59.20:771][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.59.20:773][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.19-00.59.20:778][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.59.20:789][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.59.20:790][722]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.01.19-00.59.20:790][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.01.19-00.59.20:791][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.01.19-00.59.20:799][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.01.19-00.59.20:864][723]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2024.01.19-00.59.27:561][308]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_64
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.59.27:561][308]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_64
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.59.27:561][308]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_64
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.59.27:602][309]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_65
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-00.59.27:602][309]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_65
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-00.59.27:602][309]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_65
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-00.59.28:307][354]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich
+[2024.01.19-00.59.28:307][354]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.59.28:307][354]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.59.34:335][988]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-00.59.34:456][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Enemy/Lich/BP_Lich" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/BP_Lich.uasset" SILENT=true
+[2024.01.19-00.59.34:469][988]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Lich/BP_Lich
+[2024.01.19-00.59.34:469][988]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_Lich20E59A424D4D623670E93DAE938930BE.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Lich/BP_Lich.uasset'
+[2024.01.19-00.59.34:482][988]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 1.81 sec)
+[2024.01.19-00.59.34:483][988]AssetCheck: New page: Asset Save: BP_Lich
+[2024.01.19-00.59.34:483][988]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich
+[2024.01.19-00.59.34:704][  7]BlueprintLog: New page: Compile BP_Lich
+[2024.01.19-00.59.34:756][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.19-00.59.38:946][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.19-00.59.38:993][340]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.59.38:994][340]LogWorldPartition: ULevel::OnLevelLoaded(Matthieu_TestMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.19-00.59.38:994][340]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.19-00.59.38:994][340]LogWorldPartition: UWorldPartition::Initialize : World = Matthieu_TestMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.19-00.59.39:043][340]LogContentBundle: [Matthieu_TestMap(Standalone)] Creating new contrainer.
+[2024.01.19-00.59.39:043][340]LogWorldPartition: Display: WorldPartition initialize took 48 ms (total: 457 ms)
+[2024.01.19-00.59.39:048][340]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap
+[2024.01.19-00.59.39:048][340]Cmd: MAP LOAD FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/FirstPerson/Maps/Matthieu_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.19-00.59.39:048][340]LightingResults: New page: Lighting Build
+[2024.01.19-00.59.39:048][340]LoadErrors: New page: Loading map: Matthieu_TestMap.umap
+[2024.01.19-00.59.39:093][340]LogWorld: UWorld::CleanupWorld for LevelMrMat, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.59.39:093][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.59.39:094][340]MapCheck: New page: Map Check
+[2024.01.19-00.59.39:094][340]LightingResults: New page: Lighting Build
+[2024.01.19-00.59.39:108][340]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.19-00.59.39:115][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.01.19-00.59.39:118][340]LogWorld: UWorld::CleanupWorld for Matthieu_TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.59.39:119][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.59.39:119][340]LogContentBundle: [Matthieu_TestMap(Standalone)] Deleting container.
+[2024.01.19-00.59.39:136][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.19-00.59.39:149][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.19-00.59.39:158][340]LogAudio: Display: Audio Device (ID: 1) registered with world 'Matthieu_TestMap'.
+[2024.01.19-00.59.39:159][340]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.59.39:159][340]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.59.39:159][340]LogAIModule: Creating AISystem for world Matthieu_TestMap
+[2024.01.19-00.59.39:159][340]LogWorldPartition: ULevel::OnLevelLoaded(Matthieu_TestMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.19-00.59.39:159][340]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.19-00.59.39:159][340]LogWorldPartition: UWorldPartition::Initialize : World = Matthieu_TestMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.19-00.59.39:208][340]LogContentBundle: [Matthieu_TestMap(Standalone)] Creating new contrainer.
+[2024.01.19-00.59.39:208][340]LogWorldPartition: Display: WorldPartition initialize took 48 ms (total: 505 ms)
+[2024.01.19-00.59.39:239][340]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.19-00.59.39:240][340]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (48, 6 bits) vs calculated maxtiles (128, 7 bits)
+[2024.01.19-00.59.39:254][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.19-00.59.39:258][340]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.19-00.59.39:259][340]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,188ms to complete.
+[2024.01.19-00.59.40:821][455]Cmd: DELETE
+[2024.01.19-00.59.40:821][455]Cmd: ACTOR DELETE
+[2024.01.19-00.59.40:822][455]LogEditorActor: Deleted Actor: BP_Ghoul_C
+[2024.01.19-00.59.40:838][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.19-00.59.40:843][455]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2024.01.19-00.59.45:354][872]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Lich/BP_Lich.BP_Lich_C
+[2024.01.19-00.59.45:354][872]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Lich/BP_Lich.BP_Lich_C
+[2024.01.19-00.59.45:358][872]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich as actor: BP_Lich_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_0
+[2024.01.19-00.59.45:359][872]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich as actor: BP_Lich_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_0
+[2024.01.19-00.59.45:475][878]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Lich/BP_Lich.BP_Lich_C
+[2024.01.19-00.59.45:475][878]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Game/Enemy/Lich/BP_Lich.BP_Lich_C
+[2024.01.19-00.59.45:478][878]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich as actor: BP_Lich_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_UAID_02506E62841FE8D001_1402291647
+[2024.01.19-00.59.45:481][878]LogActorFactory: Actor Factory spawned Blueprint /Game/Game/Enemy/Lich/BP_Lich.BP_Lich as actor: BP_Lich_C /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Lich_C_UAID_02506E62841FE8D001_1402291647
+[2024.01.19-00.59.47:188][ 59]LogContentBundle: [Matthieu_TestMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.19-00.59.47:188][ 59]LogWorldPartition: Display: GenerateStreaming for 'Matthieu_TestMap' started...
+[2024.01.19-00.59.47:190][ 59]LogWorldPartition: Display: GenerateStreaming for 'Matthieu_TestMap' took 2 ms (total: 20 ms)
+[2024.01.19-00.59.47:190][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.19-00.59.47:190][ 59]PIE: New page: SIE session: Matthieu_TestMap (19 janv. 2024 à 02:59:47)
+[2024.01.19-00.59.47:220][ 59]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap
+[2024.01.19-00.59.47:226][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006099s)
+[2024.01.19-00.59.47:226][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Matthieu_TestMap.Matthieu_TestMap to /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap (0.006131s)
+[2024.01.19-00.59.47:241][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.19-00.59.47:246][ 59]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.59.47:246][ 59]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-00.59.47:246][ 59]LogAIModule: Creating AISystem for world Matthieu_TestMap
+[2024.01.19-00.59.47:247][ 59]LogWorldPartition: ULevel::OnLevelLoaded(Matthieu_TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.19-00.59.47:247][ 59]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.19-00.59.47:247][ 59]LogWorldPartition: UWorldPartition::Initialize : World = Matthieu_TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.19-00.59.47:247][ 59]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.19-00.59.47:248][ 59]LogContentBundle: [Matthieu_TestMap(Standalone)] Creating new contrainer.
+[2024.01.19-00.59.47:248][ 59]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 507 ms)
+[2024.01.19-00.59.47:248][ 59]LogPlayLevel: PIE: World Init took: (0.002417s)
+[2024.01.19-00.59.47:248][ 59]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.01.19-00.59.47:248][ 59]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.19-00.59.47:248][ 59]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.19-00.59.47:248][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.19-00.59.47:248][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.19-00.59.47:248][ 59]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.19-00.59.47:248][ 59]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.19-00.59.47:248][ 59]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.19-00.59.47:248][ 59]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.19-00.59.47:248][ 59]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.19-00.59.47:248][ 59]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.19-00.59.47:248][ 59]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.19-00.59.47:250][ 59]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.19-00.59.47:282][ 59]LogAudioMixer: Display: Using Audio Hardware Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2024.01.19-00.59.47:282][ 59]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.19-00.59.47:282][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.19-00.59.47:282][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.19-00.59.47:283][ 59]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.01.19-00.59.47:283][ 59]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.01.19-00.59.47:284][ 59]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.01.19-00.59.47:284][ 59]LogInit: FAudioDevice initialized with ID 12.
+[2024.01.19-00.59.47:284][ 59]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.01.19-00.59.47:284][ 59]LogAudio: Display: Audio Device (ID: 12) registered with world 'Matthieu_TestMap'.
+[2024.01.19-00.59.47:284][ 59]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.19-00.59.47:286][ 59]LogLoad: Game class is 'GM_Game_C'
+[2024.01.19-00.59.47:290][ 59]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap up for play (max tick rate 0) at 2024.01.19-01.59.47
+[2024.01.19-00.59.47:290][ 59]LogWorld: Bringing up level for play took: 0.003811
+[2024.01.19-00.59.47:292][ 59]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2024.01.19-00.59.47:293][ 59]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.01.19-00.59.47:293][ 59]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FDACF01_1551313119
+[2024.01.19-00.59.47:293][ 59]LogScript: Warning: Script Msg: BP_Tower_C_UAID_02506E62841FDACF01_1551313119 TryShoot SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.01.19-00.59.47:293][ 59]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FDACF01_1551313119
+[2024.01.19-00.59.47:293][ 59]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.01.19-00.59.47:293][ 59]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FD5D001_1540835300
+[2024.01.19-00.59.47:293][ 59]LogScript: Warning: Script Msg: BP_Tower_C_UAID_02506E62841FD5D001_1540835300 TryShoot SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.01.19-00.59.47:293][ 59]LogScript: Warning: Script Msg called by: BP_Tower_C /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap.Matthieu_TestMap:PersistentLevel.BP_Tower_C_UAID_02506E62841FD5D001_1540835300
+[2024.01.19-00.59.47:294][ 59]PIE: Server logged in
+[2024.01.19-00.59.47:295][ 59]PIE: Play in editor total start time 0,107 seconds.
+[2024.01.19-00.59.53:731][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.59.53:731][700]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Matthieu_TestMap
+[2024.01.19-00.59.53:731][700]LogWorld: UWorld::CleanupWorld for Matthieu_TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-00.59.53:732][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.59.53:732][700]LogContentBundle: [Matthieu_TestMap(Standalone)] Deleting container.
+[2024.01.19-00.59.53:735][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.19-00.59.53:739][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-00.59.53:753][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.19-00.59.53:753][700]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.19-00.59.53:753][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.19-00.59.53:755][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.19-00.59.53:761][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.19-00.59.53:861][701]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2024.01.19-00.59.57:640][  1]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.59.57:696][  2]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.59.58:603][ 65]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Tower/BP_Tower.BP_Tower
+[2024.01.19-00.59.58:603][ 65]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-00.59.58:603][ 65]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-01.00.13:953][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-01.00.14:132][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Tower/BP_Tower" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Tower/BP_Tower.uasset" SILENT=true
+[2024.01.19-01.00.14:159][497]LogSavePackage: Moving output files for package: /Game/Game/Tower/BP_Tower
+[2024.01.19-01.00.14:159][497]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_Tower7F5B701B4BE7858C1A33EBA957B05FC8.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Tower/BP_Tower.uasset'
+[2024.01.19-01.00.14:174][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 2.03 sec)
+[2024.01.19-01.00.14:174][497]AssetCheck: New page: Asset Save: BP_Tower
+[2024.01.19-01.00.14:174][497]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Tower/BP_Tower.BP_Tower
+[2024.01.19-01.00.14:479][530]BlueprintLog: New page: Compile BP_Tower
+[2024.01.19-01.00.14:550][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.19-01.00.14:975][551]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_66
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-01.00.14:975][551]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_66
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-01.00.14:975][551]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_66
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-01.00.15:077][552]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_67
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0020
+[2024.01.19-01.00.15:077][552]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_67
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:004E
+[2024.01.19-01.00.15:077][552]LogScript: Warning: Accessed None trying to read property BP Lich
+	ABP_Lich_C /Engine/Transient.World_32:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Lich_C_67
+	Function /Game/Game/Enemy/Lich/ABP_Lich.ABP_Lich_C:ExecuteUbergraph_ABP_Lich:0099
+[2024.01.19-01.00.18:221][839]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Enemy/Goblin/BP_Goblin.BP_Goblin
+[2024.01.19-01.00.18:221][839]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-01.00.18:221][839]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-01.00.19:519][967]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Goblin_C /Engine/Transient.World_46:PersistentLevel.BP_Goblin_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-01.00.20:519][ 87]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Goblin_C /Engine/Transient.World_46:PersistentLevel.BP_Goblin_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-01.00.21:519][207]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Goblin_C /Engine/Transient.World_46:PersistentLevel.BP_Goblin_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-01.00.22:525][311]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Goblin_C /Engine/Transient.World_46:PersistentLevel.BP_Goblin_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-01.00.23:524][413]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Goblin_C /Engine/Transient.World_46:PersistentLevel.BP_Goblin_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-01.00.24:524][514]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Goblin_C /Engine/Transient.World_46:PersistentLevel.BP_Goblin_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-01.00.25:521][592]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Goblin_C /Engine/Transient.World_46:PersistentLevel.BP_Goblin_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-01.00.26:319][674]BlueprintLog: New page: Compile BP_Goblin
+[2024.01.19-01.00.26:416][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.19-01.00.26:759][690]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-01.00.26:800][690]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-01.00.26:910][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Enemy/Goblin/BP_Goblin" FILE="D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Goblin/BP_Goblin.uasset" SILENT=true
+[2024.01.19-01.00.26:917][690]LogSavePackage: Moving output files for package: /Game/Game/Enemy/Goblin/BP_Goblin
+[2024.01.19-01.00.26:917][690]LogSavePackage: Moving 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Saved/BP_Goblin8C49114E43A739BC4380329985EEA353.tmp' to 'D:/Projets/Dev/GTech3-UE5-Blueprint/UE5Blueprint/Content/Game/Enemy/Goblin/BP_Goblin.uasset'
+[2024.01.19-01.00.26:940][690]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 2.21 sec)
+[2024.01.19-01.00.26:941][690]AssetCheck: New page: Asset Save: BP_Goblin
+[2024.01.19-01.00.26:941][690]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/Enemy/Goblin/BP_Goblin.BP_Goblin
+[2024.01.19-01.00.27:629][742]LogScript: Warning: Accessed None trying to read property As GM Game
+	BP_Goblin_C /Engine/Transient.World_46:PersistentLevel.BP_Goblin_C_0
+	Function /Game/Game/Enemy/BP_Enemy.BP_Enemy_C:GetTargetTower:0067
+[2024.01.19-01.00.27:923][762]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-01.00.27:923][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-01.01.09:846][ 36]Cmd: DELETE
+[2024.01.19-01.01.09:846][ 36]Cmd: ACTOR DELETE
+[2024.01.19-01.01.09:848][ 36]LogEditorActor: Deleted Actor: BP_Lich_C
+[2024.01.19-01.01.09:866][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.19-01.01.09:869][ 36]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2024.01.19-01.01.10:907][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-01.01.10:973][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.01.19-01.01.10:988][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.01.19-01.01.11:001][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.01.19-01.01.11:014][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 2.32 sec)
